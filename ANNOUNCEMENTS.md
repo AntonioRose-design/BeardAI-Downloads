@@ -1,5 +1,10 @@
 # BeardAI — Official Announcements
 
+## October 23, 2026 — Future New Era release placed on hold
+
+**No new public BeardAI upgrade has been released.** The next ambitious release is being developed privately with a strict owner-requested freeze until the proposed 11,000 useful features are actually implemented, tested and approved. Early source prototypes include opt-in voice dictation, private chat attachments, verified role colors, time-aware themes and a friendly local Windows hostname. The production chat database, iPhone web app and 5.0 downloads have **not** been upgraded to those prototypes. [Development status and release policy](https://github.com/AntonioRose-design/BeardAI-Android) · [New Era source branch](https://github.com/AntonioRose-design/BeardAI-Android/tree/new-era-11k-feature-lab).
+
+
 ## October 23, 2026 — BeardAI 5.0 Royal Workbench & Feature Compass public preview
 
 **Android, Windows and the free iPhone Safari web app now have public 5.0 distribution paths.**
