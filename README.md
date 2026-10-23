@@ -36,7 +36,7 @@ When the `v0.2.0-beta` release is published, open it and download **`BeardAI-And
 
 ## Verify the APK
 
-The current release candidate was produced by the [successful Android CI build](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/39915994915). After downloading, you may compare its SHA-256 against [SHA256SUMS.txt](SHA256SUMS.txt).
+The current release candidate was compiled by GitHub Actions on October 23, 2026. The underlying development repository is private. After downloading the APK, compare its SHA-256 with [SHA256SUMS.txt](SHA256SUMS.txt) to confirm it matches the published build.
 
 ## Release information
 
