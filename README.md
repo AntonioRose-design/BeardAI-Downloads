@@ -1,61 +1,35 @@
 # 👑 BeardAI — Official Downloads
 
-## Windows 4.0 display issue — 4.0.1 repair in testing
+## Current public release: 4.0.0 Royal Command Preview
 
-If Windows 4.0 still displays 3.0, the shared localhost server identity is the cause. **The current public 4.0 ZIP is not retroactively repaired.** The 4.0.1 candidate separates the 4.0 Windows server on port 18754 with a distinct health token. [See repair memo](RELEASE_NOTES_v4.0.1-royal-command-launcher-fix.md). A new public download is not available until CI passes and the publisher uploads it. The [1,000-item roadmap](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_4_0_1000_FEATURES.md) consists of proposed work, **not 1,000 completed additions**.
+The [4.0.0 public prerelease](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.0-royal-command-preview) contains Android and Windows downloads. The Android, Windows and publishing jobs [passed GitHub Actions](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40014377871).
 
+- **[Download BeardAI 4.0.0 Android APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.0-royal-command-preview/BeardAI-Android-v4.0.0-Royal-Command-Preview.apk)**
+- **[Download BeardAI 4.0.0 Windows ZIP](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.0-royal-command-preview/BeardAI-Windows-v4.0.0-Royal-Command-Preview.zip)**
+- [SHA-256 checksums](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.0-royal-command-preview/SHA256SUMS.txt) · [4.0.0 detailed release notes](RELEASE_NOTES_v4.0.0-royal-command-preview.md)
 
+### Windows 4.0.1 launcher fix — release candidate, not yet public
 
-## Latest public release — BeardAI 4.0 Royal Command Preview
+**If your 4.0.0 Windows app still shows 3.0**, the launcher may be attaching to an older localhost server. The candidate 4.0.1 launcher uses port **18754** and `BEARDAI_LOCAL_V400` instead of the old 3.0 port **18753** and health marker. The 4.0.1 files must still be published and verified before they replace the links above.
 
-**Published October 23, 2026.** The [4.0 prerelease](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.0-royal-command-preview) contains both Android and Windows files and [SHA-256 checksums](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.0-royal-command-preview/SHA256SUMS.txt). [GitHub Actions run](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40014377871) built both packages successfully.
+[4.0.1 release memo](RELEASE_NOTES_v4.0.1-royal-command-launcher-fix.md) · [Automatic GitHub publisher](https://github.com/AntonioRose-design/BeardAI-Android/actions/workflows/publish-public-hotfix.yml) · [Latest announcements](ANNOUNCEMENTS.md)
 
-- **[Android 4.0 APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.0-royal-command-preview/BeardAI-Android-v4.0.0-Royal-Command-Preview.apk)**
-- **[Windows 4.0 ZIP](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.0-royal-command-preview/BeardAI-Windows-v4.0.0-Royal-Command-Preview.zip)**
-- **[4.0 release memo](RELEASE_NOTES_v4.0.0-royal-command-preview.md)** · **[Announcements](ANNOUNCEMENTS.md)**
+### Current 4.0 companion functionality
 
-Includes the Royal Command responsive theme, Feedback Center for reviewed GitHub issue submissions, and a community chat implementation that attempts Supabase Realtime with 3-second polling fallback. Live-chat latency has not been verified on production service. **The 1,000-item roadmap is not 1,000 finished features.** iPhone/TestFlight is not available. Android debug APK may require reinstall if the signing certificate changed; back up data first.
+Royal Command responsive layout, Feedback Center (user-reviewed GitHub issue composer), community chat with Supabase Realtime subscription attempts and three-second open-chat polling fallback, Royal Tasks while the app runs, Fusion Lab and Intel reference features. Live-service chat latency, consumer update migration and device-specific behavior are not fully tested.
 
+### Long-term feature development
 
+The [1,000-item engineering backlog](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_4_0_1000_FEATURES.md) is a *plan*, **not 1,000 completed software features**. BeardAI does not automate Ant Legion gameplay or automatically deploy code from feedback.
 
-## Royal Command 4.0 — preview in development
+### Platform status and installation
 
-The next [Royal Command 4.0 source branch](https://github.com/AntonioRose-design/BeardAI-Android/tree/beardai-2.2-community-media-updates) now contains a **modern responsive interface theme**, a Feedback Center (GitHub issue handoff), and a **Supabase Realtime WebSocket chat subscription with reconnect and 3-second polling fallback**. Actual instant chat depends on backend Realtime publication and authorization and has **not been live-service tested**. Windows 4.0 CI passed; public assets are **not yet attached to a new GitHub release**.
-
-[See the explicitly numbered 1,000-feature engineering backlog](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_4_0_1000_FEATURES.md) — a design/acceptance backlog, **not 1,000 shipped features**. Ant Legion account automation is not implemented. iPhone has no downloadable app.
-
-
-
-## Latest public release: 3.0.1 Royal Evolution Hotfix
-
-**Status:** public **prerelease**. Android, Windows and publication jobs completed successfully on [GitHub Actions](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40012198311). This is a launcher/update hotfix and interactive companion preview, **not a release with 1,000 new features**.
-
-| Platform | Latest download |
+| Platform | Status |
 | --- | --- |
-| Android | [BeardAI 3.0.1 APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v3.0.1-royal-evolution-hotfix/BeardAI-Android-v3.0.1-Royal-Evolution-Hotfix.apk) |
-| Windows | [BeardAI 3.0.1 ZIP](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v3.0.1-royal-evolution-hotfix/BeardAI-Windows-v3.0.1-Royal-Evolution-Hotfix.zip) |
-| iPhone | **No iOS app or TestFlight download yet**; [iOS source and checklist](https://github.com/AntonioRose-design/BeardAI-Android/tree/beardai-2.2-community-media-updates/ios) |
+| Android | Public 4.0.0 prerelease; 4.0.1 candidate in development |
+| Windows | Public 4.0.0 prerelease; known 3.0 localhost collision; 4.0.1 correction in development |
+| iPhone | No IPA, hosted iPhone web app, or TestFlight build. [iOS development source](https://github.com/AntonioRose-design/BeardAI-Android/tree/beardai-2.2-community-media-updates/ios) |
 
-[Read the GitHub release](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v3.0.1-royal-evolution-hotfix) · [Check SHA-256 sums](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v3.0.1-royal-evolution-hotfix/SHA256SUMS.txt) · [Detailed release notes](RELEASE_NOTES_v3.0.1-royal-evolution-hotfix.md) · [Latest announcements](ANNOUNCEMENTS.md)
+Back up saved data before changing builds. Windows localhost changes may separate saved browser data, and Android debug APKs may not update in place if their signing certificate changes. BeardAI is an independent Ant Legion companion, not affiliated with its publisher. Do not enter your Ant Legion password.
 
-### What is included
-
-- Corrected Windows Royal Evolution branding, separate localhost port `18753`, and server health identity `BEARDAI_LOCAL_V300` to prevent reuse of an older instance.
-- Opt-in Windows update checks and side-by-side installation mechanisms. End-to-end unattended updates, backup migration and desktop shortcut switching are not fully verified on consumer PCs.
-- Android 3.0.1 version detection and the user-approved APK update workflow.
-- In-app **Royal Tasks** with one-time, daily and weekly reminders, due counts, completion/rescheduling, deletion and JSON export. Due checks occur while the app is running—not background game control or guaranteed OS notifications.
-- Mechanical Scorpion fusion planning and the existing field guide, Intel and community features.
-
-### What is *not* included
-
-**1,000 completed new features are not in this build.** The [100-feature roadmap](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_3_0_100_FEATURES.md) is planning material. Feedback Center work also exists in the development branch but **was not bundled into the public 3.0.1 build**. Likewise, there is no automated Ant Legion account control, finished iOS IPA, TestFlight release or hosted iPhone app.
-
-### Installation and data safety
-
-- **Windows:** Download and fully extract the ZIP, then launch `OPEN_BEARDAI_NOW.bat`. Back up existing Intel data before switching versions; storage tied to a localhost port may not migrate automatically.
-- **Android:** Installation needs Android approval, and the debug APK's signing certificate may differ across releases. Export your data before replacing or uninstalling the prior version.
-- **iPhone:** The development source is not an installable iOS application. Apple signing, Xcode/device validation and App Store Connect distribution remain outstanding.
-
-[All previous releases](https://github.com/AntonioRose-design/BeardAI-Downloads/releases) · [Announcement archive](ANNOUNCEMENTS.md)
-
-BeardAI is an independent Ant Legion companion project, not affiliated with Ant Legion or its publisher. Do not share Ant Legion passwords in the companion.
+[Earlier GitHub releases](https://github.com/AntonioRose-design/BeardAI-Downloads/releases) · [Development source](https://github.com/AntonioRose-design/BeardAI-Android)
