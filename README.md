@@ -1,5 +1,11 @@
 # 👑 BeardAI — Official Downloads
 
+## BeardAI 4.0 public rollout — release workflow ready
+
+**4.0 Android and Windows preview source/build tests passed.** The public release is **not live until the [GitHub publishing workflow](https://github.com/AntonioRose-design/BeardAI-Android/actions/workflows/publish-public-hotfix.yml) is run on main and reports success**. The existing 3.0.1 links below remain the valid public downloads. [4.0 release notes](RELEASE_NOTES_v4.0.0-royal-command-preview.md) describe the new responsive interface, Feedback Center, conditional live chat and limitations. The 1,000-item roadmap is not shipped functionality.
+
+
+
 ## Royal Command 4.0 — preview in development
 
 The next [Royal Command 4.0 source branch](https://github.com/AntonioRose-design/BeardAI-Android/tree/beardai-2.2-community-media-updates) now contains a **modern responsive interface theme**, a Feedback Center (GitHub issue handoff), and a **Supabase Realtime WebSocket chat subscription with reconnect and 3-second polling fallback**. Actual instant chat depends on backend Realtime publication and authorization and has **not been live-service tested**. Windows 4.0 CI passed; public assets are **not yet attached to a new GitHub release**.
