@@ -6,9 +6,13 @@
 
 > **iPhone availability:** An iOS/iPhone edition is planned, **not yet downloadable**. The development repository now documents a hosted Safari Add-to-Home-Screen web app first, followed by a signed TestFlight iOS app. Android APKs cannot run on iPhone; iOS does not permit silent replacement of native apps or launcher icons.
 
-## 👑 BeardAI 3.0 Royal Evolution — In Development
+## 👑 BeardAI 3.0 — Royal Evolution cross-platform project
 
-A **[100-feature upgrade specification](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_3_0_100_FEATURES.md)** now covers command center, fusion, advanced Intel, tasks, community, analytics, accessibility, security and all three intended platforms. A new **Royal Tasks** prototype adds local one-time/daily/weekly reminders, completion/rescheduling, task count and export. Windows development CI passed; Android verification is ongoing. **These are not yet part of the public 2.3.0 binaries. iPhone has no published app.** Royal Tasks are companion-side in-app reminders only, not autonomous gameplay or guaranteed background notifications.
+**Development milestone (October 23, 2026):** Windows and Android Royal Tasks preview builds passed GitHub Actions; a shared Royal Tasks module adds local one-time, daily and weekly task reminders, a due counter, completion/rescheduling and JSON backup export. The [100-feature development roadmap](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_3_0_100_FEATURES.md) describes future upgrades, **not 100 shipped features**.
+
+**iPhone status:** Initial [SwiftUI/WKWebView source](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ios/BeardAIApp.swift) and [TestFlight readiness checklist](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ios/TESTFLIGHT_RELEASE_CHECKLIST.md) are in the source branch. No Xcode archive, signed IPA, hosted iPhone app or TestFlight release has been produced. Apple developer signing, app configuration, testing and App Store Connect upload are still required.
+
+**Current public downloads remain 2.3.0 Android APK + Windows ZIP below.** The newer Royal Tasks and updater development builds must be separately compiled, validated and publicly attached before they become official downloads.
 
 ## 🪨 Latest public release: BeardAI 2.3.0 — Rolling Stone Intel Expansion
 
