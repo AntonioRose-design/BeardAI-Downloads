@@ -1,21 +1,12 @@
 # 👑 BeardAI — Official Downloads
 
-## 👑 Newest build: BeardAI 2.2 Owner Console Preview
+## ✅ Latest public release: BeardAI 2.2.1 Owner Console Preview
 
-**Built successfully on GitHub Actions, October 23, 2026.** The latest Android and Windows development packages now include the owner-only member management console (approve, deny, revoke), online/offline heartbeat, emoji composer/reactions and a release-availability checker.
+**[📱 Download Android 2.2.1 APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.2.1-owner-preview/BeardAI-Android-v2.2.1-owner-preview.apk)** · **[🖥️ Download Windows 2.2.1 ZIP](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.2.1-owner-preview/BeardAI-Windows-v2.2.1-owner-preview.zip)**
 
-**Public release status:** The previously published [v2.2.0-dev Android APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v2.2.0-dev) is **older**. To make the new owner-console build downloadable by everyone, upload the latest compiled APK and Windows ZIP to a new public prerelease, suggested tag `v2.2.1-owner-preview`. Until those files have been uploaded, the links on the existing public release are *not* the latest features.
+[Release notes and checksums](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v2.2.1-owner-preview)
 
-[Android Actions verification](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40001271198) · [Windows Actions verification](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40001271097)
-
-**Update limitations:** Release notifications work in the new client, but automatic installation is not implemented on Android or Windows. Android requires installation confirmation. GIFs and photo uploads remain under development.
-
-
-
-**Royal Mission Control • Independent Ant Legion player companion • Community Chat**
-
-
-> **Latest developer build:** The owner Members Console (Approve, Deny, Revoke, recently online/offline), emoji reactions and update-availability checks are implemented on the private 2.2 source branch. **The publicly downloadable v2.2.0-dev APK is still the earlier emoji preview** until a new APK asset is uploaded. Do not expect member controls in the existing public APK. Windows 2.2 preview is built in private GitHub Actions; no public Windows installer/release asset is currently attached. Neither platform silently installs updates. A secure installer and publishing automation remain work in progress.
+Includes the Owner Members Console (approve, deny, revoke), activity-based online/offline indicators, emojis, message reactions, and a manual/launch-time release checker. Both public assets have been verified as attached. **The release checker is not an automatic binary installer.** Users must still install a new Android APK or Windows ZIP themselves; do not tell users their existing installation auto-updates.
 
 ## 📱 Download BeardAI
 
