@@ -1,5 +1,13 @@
 # BeardAI Official Announcements
 
+## October 23, 2026 — BeardAI 4.0 Royal Command preview development
+
+Royal Command 4.0 development adds a more modern responsive visual theme, improved large-screen layout, accessibility and reduced-motion support, an opt-in Feedback Center, and a live-chat WebSocket subscription with reconnect and 3-second polling fallback. Realtime delivery remains dependent on backend subscriptions and is **not guaranteed to be instantaneous**. The source now includes a [numbered 1,000-feature roadmap](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_4_0_1000_FEATURES.md) across 40 workstreams. These are **planned items**, not 1,000 released features.
+
+**Public status:** 3.0.1 remains the newest verified public download until 4.0's publication workflow succeeds. No iPhone IPA/TestFlight and no Ant Legion gameplay automation have been published.
+
+
+
 ## October 23, 2026 — Royal Evolution 3.0.1 is public
 
 The **3.0.1 Royal Evolution Hotfix prerelease** is now available for Android and Windows.
