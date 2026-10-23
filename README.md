@@ -6,6 +6,10 @@
 
 > **iPhone availability:** An iOS/iPhone edition is planned, **not yet downloadable**. The development repository now documents a hosted Safari Add-to-Home-Screen web app first, followed by a signed TestFlight iOS app. Android APKs cannot run on iPhone; iOS does not permit silent replacement of native apps or launcher icons.
 
+## 👑 BeardAI 3.0 Royal Evolution — In Development
+
+A **[100-feature upgrade specification](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_3_0_100_FEATURES.md)** now covers command center, fusion, advanced Intel, tasks, community, analytics, accessibility, security and all three intended platforms. A new **Royal Tasks** prototype adds local one-time/daily/weekly reminders, completion/rescheduling, task count and export. Windows development CI passed; Android verification is ongoing. **These are not yet part of the public 2.3.0 binaries. iPhone has no published app.** Royal Tasks are companion-side in-app reminders only, not autonomous gameplay or guaranteed background notifications.
+
 ## 🪨 Latest public release: BeardAI 2.3.0 — Rolling Stone Intel Expansion
 
 **Released October 23, 2026 • Android APK and Windows portable desktop ZIP • Public preview**
