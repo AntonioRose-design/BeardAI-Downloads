@@ -1,0 +1,27 @@
+/* BeardAI 4.0 Royal Command visual refresh: responsive, low-motion, GPU-light */
+:root{--bg:#071015;--panel:#101d24;--panel2:#142932;--gold:#e3c286;--mint:#73ebc3;--muted:#a2b7bb;--line:rgba(143,183,177,.22);--white:#edf6f6;--blue:#73c9e9}
+html{scroll-behavior:smooth}
+body{background:linear-gradient(155deg,#0b1822 0%,#061015 50%,#10221e 100%);color:var(--white);font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif}
+.page{max-width:1600px;width:100%;margin:0 auto;overflow:visible;padding-bottom:80px}
+.app-top{height:auto;min-height:72px;padding:14px clamp(14px,2.4vw,36px);background:#0b1b24ee;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:80;backdrop-filter:blur(12px)}
+.brand-mini strong{font-size:23px;letter-spacing:-.6px}.brand-mini small{font-size:10px;letter-spacing:1.5px;color:#bfb38d}
+.royal-mark{text-shadow:none;color:var(--gold)}
+.royal-hero{height:clamp(120px,15vw,225px);border-bottom:1px solid var(--line);overflow:hidden}
+.royal-hero>img{height:100%;object-position:center 35%;opacity:.65}
+.hero-tag{font:700 11px system-ui;letter-spacing:2px;padding:13px;background:linear-gradient(90deg,#0b182200,#0b1822ed 25%,#0b1822ed 75%,#0b182200)}
+.summary-strip{background:#0d2027;padding:14px;border-bottom:1px solid var(--line)}
+.command-head,.hero-actions,.tabs,.tab-body{max-width:1380px;margin-left:auto;margin-right:auto}
+.tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;gap:6px;padding:12px clamp(12px,2.2vw,25px);position:sticky;top:72px;z-index:70;background:#08171df7;border-bottom:1px solid var(--line)}
+.tab{white-space:nowrap;border-radius:11px!important;min-height:44px;flex-shrink:0}
+.tab.active{box-shadow:inset 0 0 0 1px #80e5c4aa,0 4px 20px #0004}
+.tab-body{padding:clamp(12px,1.9vw,24px);animation:beardai-in .18s ease-out}
+.panel,.card,.command-card{border-radius:16px!important;border-color:var(--line)!important;box-shadow:0 8px 35px #0003}
+button,input,textarea,select{accent-color:var(--mint)}
+button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #79d6df;outline-offset:2px}
+button{transition:background-color .14s,border-color .14s,box-shadow .14s}
+.community-message{content-visibility:auto;contain-intrinsic-size:65px}
+#communityMessages{overflow-anchor:auto}
+@keyframes beardai-in{from{opacity:.75;transform:translateY(5px)}to{opacity:1;transform:none}}
+@media(min-width:1050px){.command-head,.hero-actions{padding-left:25px;padding-right:25px}.tab-body.active{gap:16px}}
+@media(max-width:720px){.app-top{position:relative}.tabs{top:0;padding:9px}.royal-hero{height:120px}.summary-strip small{font-size:9px}.tab-body{padding:12px}.page{padding-bottom:100px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}

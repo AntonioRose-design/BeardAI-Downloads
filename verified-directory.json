@@ -1,0 +1,750 @@
+{
+  "schemaVersion": 2,
+  "verifiedOn": "2026-10-23",
+  "scope": "Only facts explicitly described in attributed source material. Historical items remain dated. “Verified” here means published source corroboration, not independently measured live-game data.",
+  "sources": {
+    "googleplay": "https://play.google.com/store/apps/details?id=com.global.antgame",
+    "googleplay_funtap": "https://play.google.com/store/apps/details?id=com.global.antgamevn",
+    "ios": "https://apps.apple.com/us/app/ant-legion/id1584078447",
+    "wiki": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+    "ldplayer": "https://www.ldplayer.net/blog/ant-legion-tier-list.html",
+    "bluestacks": "https://www.bluestacks.com/blog/game-guides/ant-legion-for-the-swarm/atl-tier-list-en.html",
+    "apkpure": "https://apkpure.net/ant-legion-for-the-swarm/com.global.antgame/versions",
+    "discord": "https://discord.com/servers/ant-legion-for-the-swarm-864034989636059146",
+    "discorddev": "https://discord.com/developers/docs"
+  },
+  "facts": [
+    {
+      "id": "release-00",
+      "title": "Queen and Nest cap increased to level 45",
+      "category": "Patch Notes",
+      "detail": "The publisher's published release notes announce a maximum level of 45 for Queen and Nest.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "August 2026 / 7.1.199",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-01",
+      "title": "Mutant Soldier Upgrades research tree",
+      "category": "Patch Notes",
+      "detail": "A new tech tree named “Mutant Soldier Upgrades” was announced.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "August 2026 / 7.1.199",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-02",
+      "title": "Four Mutant Soldier types",
+      "category": "Patch Notes",
+      "detail": "Patch notes announce Mutant Soldiers in all four unit types.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "August 2026 / 7.1.199",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-03",
+      "title": "Skin and Collection Exchange Shop rewards",
+      "category": "Patch Notes",
+      "detail": "Shop reward additions were included in an official published update.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "August 2026 / 7.1.199",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-04",
+      "title": "Arcane Ant introduced",
+      "category": "Patch Notes",
+      "detail": "An official Ant Legion patch note announces a Specialized Ant named Arcane Ant. Role, exact skills, and acquisition are not stated in the release notes.",
+      "sources": [
+        {
+          "label": "googleplay_funtap",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgamevn"
+        }
+      ],
+      "level": "official",
+      "version": "September 2026 / 7.1.201",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-05",
+      "title": "Random nest and background skin display",
+      "category": "Patch Notes",
+      "detail": "The patch notes announce random skin display for Nest and Background appearances.",
+      "sources": [
+        {
+          "label": "googleplay_funtap",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgamevn"
+        }
+      ],
+      "level": "official",
+      "version": "September 2026 / 7.1.201",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-06",
+      "title": "Unit Promotion target level choice",
+      "category": "Patch Notes",
+      "detail": "Unit Promotion gains a target-level selection option.",
+      "sources": [
+        {
+          "label": "googleplay_funtap",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgamevn"
+        }
+      ],
+      "level": "official",
+      "version": "September 2026 / 7.1.201",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-07",
+      "title": "Alliance Rally information integrated",
+      "category": "Patch Notes",
+      "detail": "The September update says rally information can be seen and joined through several casual modes.",
+      "sources": [
+        {
+          "label": "googleplay_funtap",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgamevn"
+        }
+      ],
+      "level": "official",
+      "version": "September 2026 / 7.1.201",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-08",
+      "title": "Dessert Party Guardian Deity collection",
+      "category": "Patch Notes",
+      "detail": "Version 7.1.206 release notes reported a new Guardian Deity collection called “Dessert Party”.",
+      "sources": [
+        {
+          "label": "apkpure",
+          "url": "https://apkpure.net/ant-legion-for-the-swarm/com.global.antgame/versions"
+        },
+        {
+          "label": "ios",
+          "url": "https://apps.apple.com/us/app/ant-legion/id1584078447"
+        }
+      ],
+      "level": "third_party_release",
+      "version": "October 2026 / 7.1.206",
+      "notes": "Archived distribution notes; verify availability in your game region and version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-09",
+      "title": "Collection and Skin Exchange Shop additions",
+      "category": "Patch Notes",
+      "detail": "The October version notes list new items in the Skin and Collection Exchange Shops.",
+      "sources": [
+        {
+          "label": "apkpure",
+          "url": "https://apkpure.net/ant-legion-for-the-swarm/com.global.antgame/versions"
+        },
+        {
+          "label": "ios",
+          "url": "https://apps.apple.com/us/app/ant-legion/id1584078447"
+        }
+      ],
+      "level": "third_party_release",
+      "version": "October 2026 / 7.1.206",
+      "notes": "Archived distribution notes; verify availability in your game region and version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-10",
+      "title": "Quick Speedup returns excess speedups",
+      "category": "Patch Notes",
+      "detail": "October patch notes say extra speedups used will be returned by Quick Speedup.",
+      "sources": [
+        {
+          "label": "apkpure",
+          "url": "https://apkpure.net/ant-legion-for-the-swarm/com.global.antgame/versions"
+        },
+        {
+          "label": "ios",
+          "url": "https://apps.apple.com/us/app/ant-legion/id1584078447"
+        }
+      ],
+      "level": "third_party_release",
+      "version": "October 2026 / 7.1.206",
+      "notes": "Archived distribution notes; verify availability in your game region and version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-11",
+      "title": "Conquest random matchmaking",
+      "category": "Patch Notes",
+      "detail": "October release notes mention random matchmaking for Conquest and other modes.",
+      "sources": [
+        {
+          "label": "apkpure",
+          "url": "https://apkpure.net/ant-legion-for-the-swarm/com.global.antgame/versions"
+        },
+        {
+          "label": "ios",
+          "url": "https://apps.apple.com/us/app/ant-legion/id1584078447"
+        }
+      ],
+      "level": "third_party_release",
+      "version": "October 2026 / 7.1.206",
+      "notes": "Archived distribution notes; verify availability in your game region and version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "ant-00",
+      "title": "Giant Ant",
+      "category": "Specialized Ants",
+      "detail": "Class in historical 2022–2023 guides: Melee. Frontline durability and damage mitigation; historical guide discusses chance-based damage negation and block bonuses.",
+      "sources": [
+        {
+          "label": "bluestacks",
+          "url": "https://www.bluestacks.com/blog/game-guides/ant-legion-for-the-swarm/atl-tier-list-en.html"
+        },
+        {
+          "label": "ldplayer",
+          "url": "https://www.ldplayer.net/blog/ant-legion-tier-list.html"
+        }
+      ],
+      "level": "historical_correlated",
+      "version": "historical game guides 2022–2023",
+      "notes": "These are verified published historical references, NOT a verified current 2026 full roster or current-stat claim.",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "ant-01",
+      "title": "Fire Ant",
+      "category": "Specialized Ants",
+      "detail": "Class in historical 2022–2023 guides: Haste. Historically described as a consistent damage dealer.",
+      "sources": [
+        {
+          "label": "bluestacks",
+          "url": "https://www.bluestacks.com/blog/game-guides/ant-legion-for-the-swarm/atl-tier-list-en.html"
+        },
+        {
+          "label": "ldplayer",
+          "url": "https://www.ldplayer.net/blog/ant-legion-tier-list.html"
+        }
+      ],
+      "level": "historical_correlated",
+      "version": "historical game guides 2022–2023",
+      "notes": "These are verified published historical references, NOT a verified current 2026 full roster or current-stat claim.",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "ant-02",
+      "title": "Ponerine",
+      "category": "Specialized Ants",
+      "detail": "Class in historical 2022–2023 guides: Haste. Historically described as a damage dealer whose offensive output improves in prolonged fights.",
+      "sources": [
+        {
+          "label": "bluestacks",
+          "url": "https://www.bluestacks.com/blog/game-guides/ant-legion-for-the-swarm/atl-tier-list-en.html"
+        },
+        {
+          "label": "ldplayer",
+          "url": "https://www.ldplayer.net/blog/ant-legion-tier-list.html"
+        }
+      ],
+      "level": "historical_correlated",
+      "version": "historical game guides 2022–2023",
+      "notes": "These are verified published historical references, NOT a verified current 2026 full roster or current-stat claim.",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "ant-03",
+      "title": "Slender Ant",
+      "category": "Specialized Ants",
+      "detail": "Class in historical 2022–2023 guides: Haste. Historically described as an early-fight critical-hit focused unit.",
+      "sources": [
+        {
+          "label": "bluestacks",
+          "url": "https://www.bluestacks.com/blog/game-guides/ant-legion-for-the-swarm/atl-tier-list-en.html"
+        },
+        {
+          "label": "ldplayer",
+          "url": "https://www.ldplayer.net/blog/ant-legion-tier-list.html"
+        }
+      ],
+      "level": "historical_correlated",
+      "version": "historical game guides 2022–2023",
+      "notes": "These are verified published historical references, NOT a verified current 2026 full roster or current-stat claim.",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "ant-04",
+      "title": "Lumia Ant",
+      "category": "Specialized Ants",
+      "detail": "Class in historical 2022–2023 guides: Melee. Historically described as a shield-focused frontline unit.",
+      "sources": [
+        {
+          "label": "bluestacks",
+          "url": "https://www.bluestacks.com/blog/game-guides/ant-legion-for-the-swarm/atl-tier-list-en.html"
+        },
+        {
+          "label": "ldplayer",
+          "url": "https://www.ldplayer.net/blog/ant-legion-tier-list.html"
+        }
+      ],
+      "level": "historical_correlated",
+      "version": "historical game guides 2022–2023",
+      "notes": "These are verified published historical references, NOT a verified current 2026 full roster or current-stat claim.",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "ant-05",
+      "title": "Amber Stinger",
+      "category": "Specialized Ants",
+      "detail": "Class in historical 2022–2023 guides: Ranged. Listed as a ranged specialized war ant in historical third-party guides; exact skills not verified for current versions.",
+      "sources": [
+        {
+          "label": "bluestacks",
+          "url": "https://www.bluestacks.com/blog/game-guides/ant-legion-for-the-swarm/atl-tier-list-en.html"
+        },
+        {
+          "label": "ldplayer",
+          "url": "https://www.ldplayer.net/blog/ant-legion-tier-list.html"
+        }
+      ],
+      "level": "historical_correlated",
+      "version": "historical game guides 2022–2023",
+      "notes": "These are verified published historical references, NOT a verified current 2026 full roster or current-stat claim.",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "ant-06",
+      "title": "Flat Head",
+      "category": "Specialized Ants",
+      "detail": "Class in historical 2022–2023 guides: Melee. Listed as a melee war ant. Some references write Flathead; current exact naming needs in-game confirmation.",
+      "sources": [
+        {
+          "label": "bluestacks",
+          "url": "https://www.bluestacks.com/blog/game-guides/ant-legion-for-the-swarm/atl-tier-list-en.html"
+        },
+        {
+          "label": "ldplayer",
+          "url": "https://www.ldplayer.net/blog/ant-legion-tier-list.html"
+        }
+      ],
+      "level": "historical_correlated",
+      "version": "historical game guides 2022–2023",
+      "notes": "These are verified published historical references, NOT a verified current 2026 full roster or current-stat claim.",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "ant-07",
+      "title": "Golden Carpenter",
+      "category": "Specialized Ants",
+      "detail": "Class in historical 2022–2023 guides: Ranged. Listed as a ranged war ant. Exact skills not verified for current versions.",
+      "sources": [
+        {
+          "label": "bluestacks",
+          "url": "https://www.bluestacks.com/blog/game-guides/ant-legion-for-the-swarm/atl-tier-list-en.html"
+        },
+        {
+          "label": "ldplayer",
+          "url": "https://www.ldplayer.net/blog/ant-legion-tier-list.html"
+        }
+      ],
+      "level": "historical_correlated",
+      "version": "historical game guides 2022–2023",
+      "notes": "These are verified published historical references, NOT a verified current 2026 full roster or current-stat claim.",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "ant-08",
+      "title": "Jumper",
+      "category": "Specialized Ants",
+      "detail": "Class in historical 2022–2023 guides: Ranged. Listed as a ranged war ant. Exact skills not verified for current versions.",
+      "sources": [
+        {
+          "label": "bluestacks",
+          "url": "https://www.bluestacks.com/blog/game-guides/ant-legion-for-the-swarm/atl-tier-list-en.html"
+        },
+        {
+          "label": "ldplayer",
+          "url": "https://www.ldplayer.net/blog/ant-legion-tier-list.html"
+        }
+      ],
+      "level": "historical_correlated",
+      "version": "historical game guides 2022–2023",
+      "notes": "These are verified published historical references, NOT a verified current 2026 full roster or current-stat claim.",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "ant-09",
+      "title": "Long Horn",
+      "category": "Specialized Ants",
+      "detail": "Class in historical 2022–2023 guides: Haste. Listed as a haste war ant, also styled Longhorn. Exact current skills not verified.",
+      "sources": [
+        {
+          "label": "bluestacks",
+          "url": "https://www.bluestacks.com/blog/game-guides/ant-legion-for-the-swarm/atl-tier-list-en.html"
+        },
+        {
+          "label": "ldplayer",
+          "url": "https://www.ldplayer.net/blog/ant-legion-tier-list.html"
+        }
+      ],
+      "level": "historical_correlated",
+      "version": "historical game guides 2022–2023",
+      "notes": "These are verified published historical references, NOT a verified current 2026 full roster or current-stat claim.",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "ant-10",
+      "title": "Brown Glider",
+      "category": "Specialized Ants",
+      "detail": "Class in historical 2022–2023 guides: Ranged. Listed as a ranged war ant. Exact skills not verified for current versions.",
+      "sources": [
+        {
+          "label": "bluestacks",
+          "url": "https://www.bluestacks.com/blog/game-guides/ant-legion-for-the-swarm/atl-tier-list-en.html"
+        },
+        {
+          "label": "ldplayer",
+          "url": "https://www.ldplayer.net/blog/ant-legion-tier-list.html"
+        }
+      ],
+      "level": "historical_correlated",
+      "version": "historical game guides 2022–2023",
+      "notes": "These are verified published historical references, NOT a verified current 2026 full roster or current-stat claim.",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "ant-11",
+      "title": "Harvester",
+      "category": "Specialized Ants",
+      "detail": "Class in historical 2022–2023 guides: Melee. Listed as a melee war ant. Exact skills not verified for current versions.",
+      "sources": [
+        {
+          "label": "bluestacks",
+          "url": "https://www.bluestacks.com/blog/game-guides/ant-legion-for-the-swarm/atl-tier-list-en.html"
+        },
+        {
+          "label": "ldplayer",
+          "url": "https://www.ldplayer.net/blog/ant-legion-tier-list.html"
+        }
+      ],
+      "level": "historical_correlated",
+      "version": "historical game guides 2022–2023",
+      "notes": "These are verified published historical references, NOT a verified current 2026 full roster or current-stat claim.",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "ant-arcane",
+      "title": "Arcane Ant",
+      "category": "Specialized Ants",
+      "detail": "Arcane Ant is explicitly named as a new Specialized Ant in the publisher’s September 2026 patch notes. Skill descriptions, class, evolution, and acquisition are not provided there.",
+      "sources": [
+        {
+          "label": "googleplay_funtap",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgamevn"
+        }
+      ],
+      "level": "official",
+      "version": "September 2026",
+      "notes": "",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "game-colony",
+      "title": "Build your ant colony",
+      "category": "Fundamentals",
+      "detail": "The official description says the player expands a colony, builds a base and develops an underground fortress.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "",
+      "notes": "",
+      "gameplay": false,
+      "acquisition": "Core gameplay"
+    },
+    {
+      "id": "game-hatch",
+      "title": "Hatch and raise specialized ants",
+      "category": "Fundamentals",
+      "detail": "Publisher description references collecting, hatching, and raising ants for legions. It does not specify current drop rates or every obtain method.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "",
+      "notes": "",
+      "gameplay": false,
+      "acquisition": "Core gameplay; specific ant acquisition varies"
+    },
+    {
+      "id": "game-troops",
+      "title": "Train troops and battle",
+      "category": "Fundamentals",
+      "detail": "Publisher description confirms troops can be trained for combat against rival armies.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "",
+      "notes": "",
+      "gameplay": false,
+      "acquisition": "Core gameplay"
+    },
+    {
+      "id": "game-resources",
+      "title": "Gather food, leaves and water",
+      "category": "Fundamentals",
+      "detail": "Publisher description explicitly mentions collecting food and water and fighting for resources; specific gathering rates and schedules need in-game verification.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "",
+      "notes": "",
+      "gameplay": false,
+      "acquisition": "Core gameplay"
+    },
+    {
+      "id": "game-alliance",
+      "title": "Alliances and tree-stump competition",
+      "category": "Fundamentals",
+      "detail": "Publisher description describes forming alliances and competing for the last tree stump.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "",
+      "notes": "",
+      "gameplay": false,
+      "acquisition": "Core gameplay"
+    }
+  ],
+  "researchQueue": [
+    {
+      "name": "Weaver Ant",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Redhead",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Blue Ant",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Pharaoh Ant",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Redwood",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Pavement Ant",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Dorylus",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Eciton Army Ant",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Atta Leafcutter",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Attini Leafcutter",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Green Ant",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Spiderant",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Metallica",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Meat Ant",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Carpenter",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Sugar Ant",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Doorkeeper",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Red Foot",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Gardener",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Long Jaw",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Death Ant",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Velvet Ant",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Northern Leafcutter",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Mimicking Jumper",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    },
+    {
+      "name": "Rock Ants",
+      "evidence": "Single historical community roster reference",
+      "source": "https://ant-legion-for-the-swarm.fandom.com/wiki/Specialized_Ants",
+      "status": "Not verified in the current game; excluded from the verified directory."
+    }
+  ],
+  "discord": {
+    "officialServerId": "864034989636059146",
+    "officialServerUrl": "https://discord.com/servers/ant-legion-for-the-swarm-864034989636059146",
+    "requiresAuthorization": true,
+    "liveChatEnabled": false
+  }
+}

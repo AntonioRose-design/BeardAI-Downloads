@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "BeardAI 5.0 Royal Workbench - iPhone Web App",
+  "short_name": "BeardAI",
+  "description": "Independent Ant Legion companion for guides, workbench, tasks, and community",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071015",
+  "theme_color": "#102630",
+  "icons": [
+    {
+      "src": "app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

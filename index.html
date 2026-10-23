@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/><meta name="theme-color" content="#04110a"/><title>BeardAI 5.0 Royal Workbench · iPhone Web Preview</title>
+<link rel="stylesheet" href="style.css"/><link rel="stylesheet" href="royal-command-theme.css"/><link rel="manifest" href="manifest.webmanifest"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/><meta name="apple-mobile-web-app-title" content="BeardAI"/><link rel="apple-touch-icon" href="apple-touch-icon.png"/></head>
+<body>
+<div class="page">
+<header class="app-top">
+ <div class="brand-mini"><div class="royal-mark">♛</div><div><strong>Beard<span>AI</span></strong><small>ROYAL MISSION CONTROL</small></div></div>
+ <div class="app-indicator"><i></i><span id="topIndicator">LOCAL STANDBY</span></div>
+</header>
+<section class="royal-hero" aria-label="Holy Grail Royal Mission Control"><img src="royal_header.webp" alt="Holy Grail Royal Mission Control crown artwork"/><div class="hero-tag"><span class="spark">✦</span> THE KINGDOM IS IN YOUR HANDS <span class="spark">✦</span></div></section>
+<section class="summary-strip">
+ <div><small>PLATFORM</small><strong>ANDROID</strong></div><div><small>SECURITY</small><strong>LOCAL ONLY</strong></div><div><small>VISION</small><strong id="visionState">STANDBY</strong></div>
+</section>
+<section class="command-head">
+ <div><div class="eyebrow">⚔ &nbsp; YOUR COMMAND DECK</div><h1>Rule your kingdom.</h1><p>See your screen. Identify what's visible. Plan your next move.</p></div>
+</section>
+<section class="hero-actions">
+ <button id="btnStart" class="action action-green"><span>◉</span><span><strong>START AI VISION</strong><small>Allow Android screen capture</small></span><b>↗</b></button>
+ <button id="btnGame" class="action action-onyx"><span>▶</span><span><strong>OPEN ANT LEGION</strong><small>Switch to your installed game</small></span><b>↗</b></button>
+</section>
+<nav class="tabs" role="tablist" aria-label="BeardAI workspace">
+ <button class="tab active" data-tab="mission">♛ <span>Overview</span></button>
+ <button class="tab" data-tab="command">⚔ <span>Command</span></button>
+ <button class="tab" data-tab="vision">◎ <span>Vision</span></button>
+ <button class="tab" data-tab="knowledge">⌕ <span>Guide</span></button>
+ <button class="tab" data-tab="verified">◉ <span>Verified</span></button>
+ <button class="tab" data-tab="intel">♛ <span>Intel</span></button>
+ <button class="tab" data-tab="ascend">✦ <span>Ascend</span></button>
+ <button class="tab" data-tab="chat">✉ <span>Chat</span></button>
+ <button class="tab" data-tab="accounts">♙ <span>Accounts</span></button>
+ <button class="tab" data-tab="logs">≡ <span>Logs</span></button>
+</nav>
+<main>
+ <section class="tab-body active" id="tab-mission">
+   <div class="panel">
+    <div class="panel-title"><div><span class="panel-glyph">◈</span> LIVE GAME VIEW</div><span class="badge" id="gameLiveStatus">AWAITING CAPTURE</span></div>
+    <div class="frame-box" id="mainFrameBox">
+      <img class="game-frame" id="mainFrame" alt="Latest permitted screen capture" hidden/>
+      <div class="no-frame" id="frameEmpty"><div class="ornament">✧</div><h3>Your kingdom, live.</h3><p>Tap <b>Start AI Vision</b>, approve Android's request, then switch to Ant Legion.</p><small>NO GAME FRAME HAS BEEN CAPTURED</small></div>
+      <div class="frame-stamp" id="frameStamp" hidden>◉ LIVE · On-device frame</div>
+    </div>
+    <div class="panel-subline"><span id="frameMeta">Capture inactive</span><span class="privacy-dot">● &nbsp;Private on device</span></div>
+   </div>
+   <div class="panel compact beardai-launchpad" aria-label="Royal quick actions">
+    <div class="panel-title"><div><span class="panel-glyph">♛</span> ROYAL QUICK ACTIONS</div><span class="light-label">PERSONAL COMMAND CENTER</span></div>
+    <p class="section-note">Jump from your Live Game View into the connected tools. These actions manage BeardAI; they do not control Ant Legion.</p>
+    <div class="beardai-quick-grid">
+      <button type="button" data-goto="intel">⚙ <strong>Gear Intelligence</strong><small>Fusion plans & progress</small></button>
+      <button type="button" data-goto="ascend">✦ <strong>Ascension Command</strong><small>Alliance strategy & missions</small></button>
+      <button type="button" data-goto="command">⚔ <strong>Mission Board</strong><small>See your next objectives</small></button>
+      <button type="button" data-goto="chat">✉ <strong>Community Rooms</strong><small>Chat when server connected</small></button>
+      <button type="button" data-goto="verified">◉ <strong>Verified Knowledge</strong><small>Source-linked game facts</small></button>
+    </div>
+   </div>
+   <div class="stat-grid">
+     <div class="stat-card"><small>VISION LABELS</small><strong id="detCount">—</strong><span>Matched on this frame</span></div>
+     <div class="stat-card"><small>LOCAL PROFILES</small><strong id="profileCount">0</strong><span>Saved on this phone</span></div>
+     <div class="stat-card"><small>ACTIVE GAME TASKS</small><strong id="mcMissionCount">0</strong><span>On local mission board</span></div>
+   </div>
+   <div class="panel compact mc-overview-panel">
+     <div class="panel-title"><div><span class="panel-glyph">⚔</span> MY INTEL MISSIONS</div><button type="button" class="text-btn" data-goto="command">OPEN COMMAND BOARD →</button></div>
+     <p class="section-note">Intel-generated missions live on the <b>Command</b> board. They do not appear in the older manual planning list.</p>
+     <div id="mcOverviewPreview" aria-live="polite"><div class="empty-row">No active missions yet.</div></div>
+   </div>
+   <div class="panel compact">
+     <div class="panel-title"><div><span class="panel-glyph">◇</span> NEXT OBJECTIVES</div><span class="light-label">PLANNER</span></div>
+     <p class="section-note">Build your daily routine here. These are planning entries, <b>not autonomous game commands</b>.</p>
+     <div class="task-grid" id="taskGrid"></div>
+     <div class="plan-head">SAVED MANUAL PLAN <span id="planCount">0</span></div><div id="savedPlan" class="saved-plan"><div class="empty-row">No tasks planned yet.</div></div>
+   </div>
+   <div class="panel compact">
+     <div class="panel-title"><div><span class="panel-glyph">☷</span> RECENT ACTIVITY</div><button class="text-btn" data-goto="logs">ALL LOGS ↗</button></div>
+     <div id="recentLogs" class="mini-log"><div class="log-empty">Start screen analysis to collect diagnostic events.</div></div>
+   </div>
+ </section>
+  <section class="tab-body" id="tab-command">
+ <div class="panel compact">
+  <div class="panel-title"><div><span class="panel-glyph">⚔</span> ACTIVE MISSION COMMAND</div><span class="light-label" id="mcDay">TODAY</span></div>
+  <p class="section-note">Build a game-informed plan from local OCR or text you paste. Recommendations are <b>rule-based suggestions</b>, not verified game states or automatic game commands.</p>
+  <div class="mc-buttons"><button type="button" id="mcStartCapture" class="smart-main-button">START VISION</button><button type="button" id="mcOpenGame">OPEN GAME</button><button type="button" id="mcRoutine">BUILD DAILY ROUTINE</button></div>
+  <label class="mc-label" for="mcPaste">Optional: paste visible game text (useful on desktop)</label>
+  <textarea id="mcPaste" rows="4" maxlength="12000" class="smart-input rv-textarea" placeholder="Example: Healing Pool, wounded troops, daily quest rewards..."></textarea>
+  <div class="mc-buttons"><button type="button" id="mcAnalyze" class="smart-main-button">ANALYZE LAST CAPTURE / TEXT</button></div>
+  <p class="smart-summary" id="mcFeedback">Ready. Start AI Vision, open Ant Legion, return here, and choose Analyze.</p>
+ </div>
+ <div class="panel compact">
+  <div class="panel-title"><div><span class="panel-glyph">✧</span> NEXT BEST CHECKS</div><span class="light-label" id="mcRecCount">0 SUGGESTED</span></div>
+  <div id="mcSuggestions" class="smart-list"></div>
+ </div>
+ <div class="panel compact">
+  <div class="panel-title"><div><span class="panel-glyph">◇</span> TODAY'S ACTION BOARD</div><span class="light-label" id="mcBoardCount">0 DONE / 0 TOTAL</span></div>
+  <p class="section-note">Start a mission, mark it done yourself, or request an Android reminder in about 15 minutes. Android may delay reminders to conserve battery. Windows in-app timers work only while the app stays open.</p>
+  <div id="mcBoard" class="smart-list"></div>
+  <div class="mc-buttons"><button type="button" id="mcClear" class="text-btn">RESET TODAY'S BOARD</button></div>
+ </div>
+ <div class="info-card">♛ &nbsp; <b>Truthful action tracking:</b> BeardAI manages your objectives and Android reminders. It does not tap inside Ant Legion, claim automatic completions, or verify gameplay success by OCR alone.</div>
+ </section>
+<section class="tab-body" id="tab-vision">
+  <div class="panel">
+   <div class="panel-title"><div><span class="panel-glyph">◎</span> AI VISION MAP</div><span class="badge blue" id="visionBadge">OCR STANDBY</span></div>
+   <div class="vision-viewport" id="visionViewport"><img id="visionFrame" alt="Recognized game screenshot" hidden/><div class="vision-empty" id="visionEmpty"><div class="crosshair">⌾</div><h3>Vision offline</h3><p>Grant screen capture and open a game to analyze the visible text.</p></div><div class="boxes" id="visionBoxes"></div></div>
+   <div class="legend"><span><i class="green"></i> OCR-verified text</span><span><i class="blue"></i> Captured frame</span></div>
+  </div>
+  <div class="panel compact"><div class="panel-title"><div><span class="panel-glyph">▤</span> RECOGNIZED LABELS</div><span class="light-label">ON DEVICE</span></div><div id="detectionsList" class="detections-list"><div class="empty-row">No labels recognized yet.</div></div></div>
+
+  <div class="panel compact" aria-label="OCR transcript">
+    <div class="panel-title"><div><span class="panel-glyph">▤</span> VISIBLE TEXT TRANSCRIPT</div><span id="smartOCRStatus" class="light-label">NO OCR</span></div>
+    <div class="smart-hint" id="smartScreenHint">Text-based screen hint: Not available</div>
+    <div class="smart-controls"><label class="smart-option"><input id="smartAllBoxes" type="checkbox"/> Highlight every OCR line</label><button id="smartShare" class="text-btn" type="button">SHARE OCR ↗</button></div>
+    <input id="smartOCRSearch" class="smart-input" type="search" placeholder="Filter recognized text" aria-label="Filter OCR text" />
+    <div class="smart-summary" id="smartOCRCount">No OCR lines recognized yet</div>
+    <div id="smartOCRList" class="smart-results"><div class="empty-row">Grant capture permission and open your game to analyze visible text.</div></div>
+  </div>
+  <div class="panel compact">
+    <div class="panel-title"><div><span class="panel-glyph">✧</span> SCREEN-AWARE ADVISOR</div><span class="light-label">READ ONLY</span></div>
+    <div id="smartAdvice" class="smart-advice">Advice appears after a recognizable title or building is captured. It is a suggestion based on text, not an automated action.</div>
+    <button id="smartGuideFromOCR" class="smart-goto" type="button">EXPLORE RELATED BUILDING IN GAME GUIDE →</button>
+  </div>
+  <div class="info-card">◈ &nbsp; <strong>Vision is observational.</strong> OCR identifies supported text labels. It does not operate Ant Legion, identify every building by appearance, or bypass game restrictions.</div>
+ </section>
+
+ <section class="tab-body" id="tab-knowledge">
+  <div class="panel compact">
+    <div class="panel-title"><div><span class="panel-glyph">♜</span> ANT LEGION FIELD GUIDE</div><span class="badge" id="smartGuideCount">85 ENTRIES</span></div>
+    <p class="section-note">Search researched locations, suggested checks and source links. Community references may be outdated. Entries marked unverified need current screenshots.</p>
+    <input id="smartGuideSearch" class="smart-input" type="search" placeholder="Search buildings, duties, resources…" aria-label="Search Ant Legion field guide" />
+    <div class="smart-chips" id="smartGuideFilters" aria-label="Filter guide categories"></div>
+    <div class="smart-summary" id="smartGuideSummary"></div>
+    <div class="smart-list" id="smartGuideList"></div>
+  </div>
+  <div class="panel compact" id="smartGuideDetailPanel">
+    <div class="panel-title"><div><span class="panel-glyph">◈</span> FIELD GUIDE DETAIL</div><span id="smartGuideEvidence" class="light-label">RESEARCHED</span></div>
+    <div id="smartGuideDetail" class="smart-detail">Select an entry above to see its description and sources.</div>
+  </div>
+  <div class="panel compact">
+    <div class="panel-title"><div><span class="panel-glyph">◷</span> DAILY COMMAND CHECKLIST</div><span id="smartChecklistCount" class="light-label">0 / 0</span></div>
+    <p class="section-note">A personal on-device checklist. Checking a box records your own report, <b>not a verified game action</b>. Resets each local day.</p>
+    <div id="smartChecklist" class="smart-checklist"></div>
+    <div class="smart-actions"><button id="smartResetChecklist" class="text-btn" type="button">RESET TODAY</button><button id="smartAddChecklist" class="text-btn" type="button">ADD CUSTOM ITEM</button></div>
+  </div>
+  <div class="info-card">♛ &nbsp; <strong>BeardAI Field Guide is offline reference material.</strong> It uses public community references and your locally captured OCR text. It does not connect to the game's internal systems or execute gameplay commands.</div>
+ </section>
+ <section class="tab-body" id="tab-verified">
+ <div class="panel compact">
+  <div class="panel-title"><div><span class="panel-glyph">♛</span> VERIFIED ANT LEGION LIBRARY</div><span class="badge" id="vCount">LOADING</span></div>
+  <p class="section-note">Every fact below has clickable sources and a date. Historical sources are never presented as current in-game stats. Unsupported claims are excluded.</p>
+  <input id="vSearch" class="smart-input" type="search" placeholder="Search ants, mechanics, updates or acquisition..." aria-label="Search verified Ant Legion facts"/>
+  <div class="smart-chips" id="vFilters"></div>
+  <p class="smart-summary" id="vSummary"></p>
+  <div class="smart-list" id="vList"></div>
+ </div>
+ <div class="panel compact" id="vSyncPanel">
+  <div class="panel-title"><div><span class="panel-glyph">↻</span> APPROVED KNOWLEDGE UPDATES</div><span class="light-label" id="rvFeedBadge">OFFLINE</span></div>
+  <p class="section-note">Only downloads <b>editor-approved, source-linked facts</b> when you press the button. This does not upload your screenshots, notes, or OCR.</p>
+  <div class="smart-actions"><button id="rvSyncButton" class="smart-main-button" type="button">CHECK APPROVED FACTS ↻</button></div>
+  <div class="smart-summary" id="rvSyncInfo">Bundled knowledge is available offline. Approved feed not checked.</div>
+ </div>
+ <div class="panel compact" id="rvReviewPanel">
+  <div class="panel-title"><div><span class="panel-glyph">⚑</span> PRIVATE EVIDENCE REVIEW QUEUE</div><span class="light-label" id="rvQueueCount">0 LOCAL</span></div>
+  <p class="section-note">Create a claim from your own observation. Everything stays on this device until you explicitly review and export it. <b>Nothing becomes a verified fact automatically.</b></p>
+  <div class="smart-stack">
+   <label>Fact to investigate <input id="rvClaim" class="smart-input" type="text" maxlength="140" placeholder="e.g. Mechanical Workshop level 8 requirement"/></label>
+   <label>Game version / date <input id="rvVersion" class="smart-input" type="text" maxlength="90" placeholder="e.g. Version 7.1.206 · 2026-10-23"/></label>
+   <label>Source link (optional) <input id="rvSource" class="smart-input" type="url" maxlength="500" placeholder="https://..."/></label>
+   <label>Evidence text — review and redact before saving<textarea id="rvEvidence" class="smart-input rv-textarea" rows="6" maxlength="2400" placeholder="Paste or import recognized game text. Remove names, coordinates, private chat and account IDs."></textarea></label>
+  </div>
+  <div class="smart-actions"><button id="rvUseOCR" class="text-btn" type="button">USE LAST OCR (REDACTED) ↙</button><button id="rvSave" class="smart-main-button" type="button">SAVE PRIVATE DRAFT</button></div>
+  <div class="smart-summary" id="rvStatus">Drafts are never uploaded automatically. OCR may be inaccurate.</div>
+  <div id="rvQueue" class="smart-list"></div>
+ </div>
+ <div class="panel compact"><div class="panel-title"><div><span class="panel-glyph">◈</span> FACT DETAILS & EVIDENCE</div><span id="vEvidence" class="light-label">SELECT A FACT</span></div><div id="vDetail" class="smart-detail">Choose an entry to review verified sources, game version and known gaps.</div></div>
+ <div class="panel compact"><div class="panel-title"><div><span class="panel-glyph">◷</span> RECENT PUBLISHED CHANGES</div><span class="light-label">DATED EVIDENCE</span></div><div id="vUpdates" class="smart-list"></div></div>
+ <div class="panel compact"><div class="panel-title"><div><span class="panel-glyph">⌁</span> OFFICIAL DISCORD PORTAL</div><span class="light-label">EXTERNAL APP</span></div>
+  <p class="section-note">Read community announcements and chat with friends through the actual Discord app or browser. Live in-app Discord chat is <b>not enabled</b>; an authorized bot or Social SDK integration is required.</p>
+  <div class="smart-actions"><button type="button" class="smart-main-button" id="vDiscord">OPEN ANT LEGION DISCORD ↗</button><button type="button" class="text-btn" id="vDiscordDev">DISCORD INTEGRATION DETAILS ↗</button></div>
+ </div>
+ <div class="info-card">Only source-backed facts appear here. The historical research queue contains <span id="vPending">0</span> single-source names requiring newer evidence; it is not presented as a verified roster. No messages from Discord have been collected.</div>
+</section>
+
+ <section class="tab-body" id="tab-chat" aria-label="Game chat companion">
+  <div class="panel compact community-hub" id="communityHub">
+   <div class="panel-title"><div><span class="panel-glyph">♛</span> BEARDAI COMMUNITY ROOMS</div><span class="badge" id="communityBadge">NEEDS SETUP</span></div>
+   <p class="section-note">A separate BeardAI community: meet other players and talk in General, Strategy, Events or Help. This is <strong>not</strong> Alliance, State or Battle Chat from Ant Legion. A separate BeardAI email account is required. Only owner-approved members can read the rooms. No Ant Legion password is required.</p>
+   <p class="section-note">PRIVATE INVITATION-ONLY BETA: Registration alone does not grant chat access. The owner must approve each account. The database address and client-safe key are embedded in BeardAI; no admin credentials are included.</p>
+   <div id="communityLoginArea" class="community-login-area">
+    <div class="community-fields">
+     <label>Email<input id="communityEmail" type="email" autocomplete="username" placeholder="you@example.com"/></label>
+     <label>Password<input id="communityPassword" type="password" autocomplete="current-password" placeholder="BeardAI community password"/></label>
+     <label>Display nickname<input id="communityNickname" maxlength="30" type="text" autocomplete="nickname" placeholder="Your chat nickname"/></label>
+     <div class="community-buttons"><button id="communityLogin" class="smart-main-button" type="button">SIGN IN</button><button id="communityRegister" type="button" class="text-btn">CREATE ACCOUNT</button></div>
+    </div>
+   </div>
+   <div id="communitySignedIn" hidden><div class="community-buttons"><span class="community-login-note" id="communityLoginNote"></span><button id="communityLogout" type="button" class="text-btn">SIGN OUT</button></div></div>
+   <div id="communityOnline" class="community-online" hidden>
+    <div class="community-channels" role="group" aria-label="BeardAI community rooms">
+     <button type="button" data-room="general" class="active">General</button>
+     <button type="button" data-room="strategy">Strategy</button>
+     <button type="button" data-room="events">Events</button>
+     <button type="button" data-room="help">Help</button>
+    </div>
+    <div class="community-message-history" id="communityMessages" aria-live="polite"><div class="empty-row">Sign in to read BeardAI community messages.</div></div>
+    <div class="community-compose">
+     <label for="communityMessage">Message BeardAI members <span id="communityLength">0/500</span></label>
+     <textarea id="communityMessage" maxlength="500" rows="3" placeholder="Write to the BeardAI community…"></textarea>
+     <div class="community-buttons"><button id="communitySend" type="button" class="smart-main-button">SEND TO COMMUNITY</button><button id="communityRefresh" type="button" class="text-btn">REFRESH ↻</button></div>
+    </div>
+   </div>
+   <p id="communityStatus" class="smart-summary community-status" role="status">BeardAI Community server is configured. Account approval is required before viewing messages.</p>
+   <small class="community-fine">Online messaging requires internet and an approved BeardAI community account. Messages are shared only with approved community members; do not post private coordinates, game credentials or account information. Chat uses live updates when the community server permits Realtime subscriptions, with a 3-second refresh fallback while open. Use Report for inappropriate messages. Moderation and deletion require the server administrator.</small>
+  </div>
+
+
+  <div class="panel compact chat-lead">
+   <div class="panel-title"><div><span class="panel-glyph">✉</span> ANT LEGION CHAT COMPANION</div><span class="badge chat-disconnected">NOT CONNECTED</span></div>
+   <p class="section-note">Prepare messages for Alliance, State, and event-only Battle Chat. <strong>There is no authorized in-game messaging connection in this version.</strong> Messages are saved privately on this phone and copied into the official Ant Legion client manually. BeardAI never asks for your game password.</p>
+   <div class="chat-connection-row">
+    <div class="chat-connection-key"><span class="chat-indicator" aria-hidden="true"></span><div><strong>Game account: Not linked</strong><small>Reading or sending game messages requires an official 37GAMES integration</small></div></div>
+    <button type="button" id="chatOpenGame" class="smart-main-button">OPEN OFFICIAL GAME ↗</button>
+   </div>
+  </div>
+  <div class="panel compact chat-workspace">
+   <div class="panel-title"><div><span class="panel-glyph">♜</span> MESSAGE COMPOSER</div><span class="light-label">PRIVATE DRAFTS</span></div>
+   <div role="tablist" aria-label="Game chat destination" class="chat-channels" id="chatChannels">
+    <button type="button" role="tab" aria-selected="true" data-channel="alliance" class="chat-channel active">Alliance</button>
+    <button type="button" role="tab" aria-selected="false" data-channel="state" class="chat-channel">State</button>
+    <button type="button" role="tab" aria-selected="false" data-channel="battle" class="chat-channel">Battle / Event</button>
+   </div>
+   <div class="chat-compose-wrap">
+    <label for="chatDraft" id="chatLabel">Alliance Chat draft</label>
+    <textarea id="chatDraft" class="chat-draft" maxlength="1000" rows="7" placeholder="Compose a message to copy into the actual game chat..."></textarea>
+    <div class="chat-editor-meta"><span id="chatDraftCount">0 / 1000 characters</span><span id="chatModeNote">Alliance chat must be opened in the official game.</span></div>
+    <div class="chat-buttons">
+     <button type="button" id="chatCopy" class="smart-main-button">COPY MESSAGE</button>
+     <button type="button" id="chatCopyOpen" class="text-btn">COPY + OPEN GAME ↗</button>
+     <button type="button" id="chatClear" class="text-btn">CLEAR DRAFT</button>
+    </div>
+    <p class="smart-summary chat-status" id="chatStatus" role="status">Drafts are local. No in-game messages can be read or sent by BeardAI yet.</p>
+   </div>
+  </div>
+  <div class="panel compact chat-presets">
+   <div class="panel-title"><div><span class="panel-glyph">✦</span> COMMAND TEMPLATES</div><span class="light-label">EDIT BEFORE SENDING</span></div>
+   <p class="section-note">Choose a template and customize it for your alliance or event. Nothing is sent automatically.</p>
+   <div id="chatTemplates" class="chat-template-grid"></div>
+  </div>
+  <div class="panel compact chat-support">
+   <div class="panel-title"><div><span class="panel-glyph">◇</span> OFFICIAL GAME CHAT LIMITATIONS</div><span class="light-label">NO GAME ACCOUNT LINK</span></div>
+   <p class="section-note">Use the officially installed Ant Legion Android app or publisher page. BeardAI has no documented access to game login, Alliance Chat, State Chat, or event Battle Chat APIs. Battle Chat is available only when the official game opens it for an event. We will not reverse-engineer authentication or capture account credentials.</p>
+   <div class="chat-buttons"><button type="button" id="chatLearnPC" class="text-btn">GOOGLE PLAY GAMES ON PC ↗</button></div>
+  </div>
+ </section>
+
+
+<section class="tab-body" id="tab-intel" aria-label="Intelligence command center">
+ <div class="panel compact intel-intro">
+  <div class="panel-title"><div><span class="panel-glyph">✦</span> BEARDAI INTELLIGENCE ENGINE</div><span class="badge">v1.0 FOUNDATION</span></div>
+  <p class="section-note">Your working command center: precise user-entered upgrade math, cross-device progress backups, and cited game references. Calculations are only as accurate as the materials you enter; OCR and reference search never prove an in-game result.</p>
+  <div class="intel-quick-grid"><div class="intel-metric"><small>GEAR PROGRESS</small><strong id="intelGearStat">NOT SET</strong></div><div class="intel-metric"><small>RECORDED SNAPSHOTS</small><strong id="intelVaultStat">0</strong></div><div class="intel-metric"><small>MODEL</small><strong>LOCAL + EXPLAINABLE</strong></div></div>
+  <div class="intel-actions"><button type="button" id="intelUseOCR">◉ ANALYZE LATEST OCR</button><button type="button" id="intelAnalyzeGoals">♛ ASSESS MY PRIORITIES</button><button type="button" id="intelPlanMission">+ SEND PRIORITY TO MISSIONS</button></div>
+  <div id="intelInsight" class="intel-output" role="status">Enter your goal and gear requirements below. BeardAI will tell you what it can calculate and what evidence is still missing.</div>
+ </div>
+ <div class="panel compact">
+  <div class="panel-title"><div><span class="panel-glyph">⚙</span> MECHANICAL SCORPION FUSION LAB</div><span class="light-label">SIX-PIECE PLANNER</span></div>
+  <p class="section-note">Configure each of the six pieces, and enter the <b>actual per-stage costs you see in the game</b>. The two-stage upgrade model is an editable planning assumption, not independently verified current mechanics. Empty cost cells mean <b>unknown</b>, not zero.</p>
+  <div class="intel-settings"><label>Target level <select id="intelTarget"><option value="1">Level 1</option><option value="2">Level 2</option><option value="3">Level 3</option><option value="4">Level 4</option><option value="5">Level 5</option><option value="6">Level 6</option><option value="7">Level 7</option><option value="1">Level 1</option><option value="2">Level 2</option><option value="3">Level 3</option><option value="4">Level 4</option><option value="5">Level 5</option><option value="6">Level 6</option><option value="7">Level 7</option><option value="8">Level 8</option><option value="9">Level 9</option><option value="10">Level 10</option><option value="10">Level 10</option></select></label><span class="intel-muted">Each player sets their own six current levels (1–10). Missing recipes remain unknown; never assume another player starts at level 7.</span></div>
+  <div class="intel-subhead">MY GEAR PIECES</div>
+<div class="intel-review-tools"><button id="intelUseReview" type="button">↺ USE MY LATEST GEAR REVIEW</button><span id="intelReviewStatus" role="status">Your gear names and progress are preserved. Import only recognized six-name reviews.</span></div><div id="intelPieces" class="intel-pieces"></div>
+  <div class="intel-subhead">MY AVAILABLE MATERIALS</div>
+  <div id="intelInventory" class="intel-input-grid"></div>
+  <div class="intel-subhead">COST PER PIECE / PER FUSION STAGE</div>
+  <p class="intel-muted">Keep unknown fields blank. Enter 0 only if that stage genuinely requires none of that material. Costs can change by tier and stage.</p>
+  <div class="intel-scroll"><table class="intel-table"><thead><tr><th>Required stage</th><th>Component boxes</th><th>Fusion cores</th><th>Leaves</th></tr></thead><tbody id="intelRecipes"></tbody></table></div>
+  <div id="intelForgeResult" class="intel-output" aria-live="polite"></div>
+ </div>
+ <div class="panel compact">
+  <div class="panel-title"><div><span class="panel-glyph">◈</span> CROSS-DEVICE PROGRESS VAULT</div><span class="light-label">LOCAL FIRST</span></div>
+  <p class="section-note">Record verified player stats and compare snapshots. Android and desktop each save locally. Transfer between devices using an <b>intentional JSON backup</b>; automatic cloud synchronization is not enabled.</p>
+  <div class="intel-input-grid" id="intelProfileInputs">
+   <label>Nest nickname <input id="intelNick" maxlength="40" autocomplete="off" placeholder="My nest"/></label>
+   <label>Combat Power <input id="intelCP" inputmode="decimal" type="number" min="0" max="100000000000000" placeholder="0"/></label>
+   <label>Army ATK (%) <input id="intelAtk" inputmode="decimal" type="number" min="0" max="1000000" step="0.01" placeholder="0"/></label>
+   <label>Queen level <input id="intelQueen" inputmode="numeric" type="number" min="0" max="1000" placeholder="0"/></label>
+  </div>
+  <label class="intel-label">Progress note <textarea id="intelNote" rows="2" maxlength="500" placeholder="What changed since last time?"></textarea></label>
+  <div class="intel-actions"><button id="intelSnapshot" type="button">+ SAVE VERIFIED SNAPSHOT</button><button id="intelBackup" type="button">EXPORT BACKUP ↗</button></div>
+  <div id="intelProgressResult" class="intel-output" aria-live="polite">No snapshots recorded yet.</div>
+  <details class="intel-transfer"><summary>Import a backup from another device</summary><p class="intel-muted">Paste a BeardAI JSON export below. You'll review and confirm before replacing locally saved fusion plans and progress. No upload occurs.</p><textarea id="intelImportText" rows="4" spellcheck="false" placeholder="Paste exported BeardAI backup JSON here..."></textarea><button type="button" id="intelImport">VALIDATE AND IMPORT</button></details>
+  <div id="intelHistory" class="intel-history"></div>
+ </div>
+ <div class="panel compact">
+  <div class="panel-title"><div><span class="panel-glyph">⌕</span> ASK THE VERIFIED FIELD GUIDE</div><span class="light-label">OFFLINE RETRIEVAL</span></div>
+  <p class="section-note">Ask about ants, buildings, mechanics, or updates. Responses link to available sources and show whether evidence is historical or current. This is <b>local reference matching</b>, not a cloud LLM or real-time game query.</p>
+  <div class="intel-query"><input id="intelAsk" type="search" maxlength="240" placeholder="e.g. How do I obtain Fire Ant?"/><button type="button" id="intelAskBtn">SEARCH KNOWLEDGE</button></div>
+  <div id="intelAnswer" class="intel-output" aria-live="polite">Try “Mechanical Workshop”, “Arcane Ant”, or “Conquest”.</div>
+ </div>
+ <div class="info-card">♛ &nbsp; <b>Permission boundary:</b> BeardAI never requests your Ant Legion credentials, controls your game client, or connects to private game chat. Game actions remain yours. Images, OCR transcripts, and progress backups stay local unless you expressly share them.</div>
+</section>
+
+
+<section class="tab-body" id="tab-ascend" aria-label="BeardAI Ascension Command">
+ <div class="panel compact ascend-hero">
+   <div class="panel-title"><div><span class="panel-glyph">✦</span> ASCENSION COMMAND — ROYAL OPERATIONS</div><span class="badge">LOCAL STRATEGY HQ</span></div>
+   <p class="section-note">Your independent alliance operations center. Track strategy, events, manual observations and missions across Android and PC through optional JSON transfers. No game automation, live game access, or invented game data.</p>
+   <div class="asc-pulse" id="ascPulse" aria-live="polite">Loading local Command status…</div>
+   <div class="asc-actions"><button type="button" id="ascBrief">EXPORT WAR BRIEF</button><button type="button" id="ascBackup">EXPORT DATA BACKUP</button></div>
+ </div>
+ <div class="asc-grid">
+  <div class="panel compact asc-panel">
+   <div class="panel-title"><div><span class="panel-glyph">⚔</span> ALLIANCE OPERATIONS</div><span class="light-label">ROSTER & MISSION HANDOFF</span></div>
+   <div class="asc-fields"><label>Alliance<input id="ascAlliance" maxlength="24" placeholder="WAD"/></label><label>Server<input id="ascServer" maxlength="12" placeholder="374"/></label></div>
+   <div class="asc-fields"><label>Operation / objective<input id="ascOperation" maxlength="110" placeholder="Prepare Conquest assignments"/></label><label>Responsible member<input id="ascOwner" maxlength="50" placeholder="R4 team"/></label><label>Deadline (local time)<input id="ascDue" type="datetime-local"/></label></div>
+   <div class="asc-actions"><button id="ascAddOperation" type="button">+ ADD OPERATION</button></div><div id="ascOperations" class="asc-stack"></div>
+  </div>
+  <div class="panel compact asc-panel">
+   <div class="panel-title"><div><span class="panel-glyph">◷</span> EVENT CLOCK & CHECKLIST</div><span class="light-label">PLAYER SET SCHEDULES</span></div>
+   <p class="section-note">Enter an event's actual date and time, as displayed for your location. Do not assume recurring game dates are correct.</p>
+   <div class="asc-fields"><label>Event name<input id="ascEventTitle" maxlength="90" placeholder="Conquest battle"/></label><label>Start time (your PC/phone timezone)<input id="ascEventDate" type="datetime-local"/></label></div>
+   <div class="asc-actions"><button id="ascAddEvent" type="button">+ TRACK EVENT</button></div><div id="ascEvents" class="asc-stack"></div>
+  </div>
+  <div class="panel compact asc-panel">
+   <div class="panel-title"><div><span class="panel-glyph">◈</span> RESOURCE WHAT-IF LAB</div><span class="light-label">EXACT ARITHMETIC / USER DATA</span></div>
+   <p class="section-note">Estimate affordable upgrades using costs you enter. No game recipes are guessed.</p>
+   <div class="asc-fields"><label>Resources available<input id="ascAvailable" type="number" min="0" max="1000000000000000" value="1000"/></label><label>Cost per action<input id="ascCost" type="number" min="1" max="1000000000000000" value="250"/></label><label>Planned actions<input id="ascQuantity" type="number" min="1" max="1000000" value="6"/></label></div>
+   <div class="asc-actions"><button id="ascCalculate" type="button">CALCULATE PLAN</button></div><div id="ascCalculation" class="asc-output" aria-live="polite">Enter verified costs, then calculate.</div>
+  </div>
+  <div class="panel compact asc-panel">
+   <div class="panel-title"><div><span class="panel-glyph">♛</span> BATTLE CHRONICLE</div><span class="light-label">MANUAL AFTER-ACTION REPORTS</span></div>
+   <div class="asc-fields"><label>Battle / opponent<input id="ascBattleTitle" maxlength="100" placeholder="Wetland defense"/></label><label>Result<select id="ascBattleResult"><option value="win">Win</option><option value="loss">Loss</option><option value="draw">Other / draw</option></select></label><label>Losses (optional)<input id="ascBattleLosses" type="number" min="0" max="1000000000000" placeholder="0"/></label></div>
+   <label class="asc-label">Lessons learned<textarea id="ascBattleNotes" rows="2" maxlength="350" placeholder="What should we repeat or change?"></textarea></label>
+   <div class="asc-actions"><button id="ascAddBattle" type="button">+ RECORD REPORT</button></div><div id="ascBattles" class="asc-stack"></div>
+  </div>
+  <div class="panel compact asc-panel">
+   <div class="panel-title"><div><span class="panel-glyph">✧</span> CROWN CHALLENGES</div><span class="light-label">MANUAL PROGRESS TRACKING</span></div>
+   <div class="asc-fields"><label>Personal or alliance goal<input id="ascGoalName" maxlength="90" placeholder="Army ATK (%)"/></label><label>Current<input id="ascGoalCurrent" type="number" min="0" max="1000000000000000" value="0"/></label><label>Target<input id="ascGoalTarget" type="number" min="1" max="1000000000000000" value="100"/></label></div>
+   <div class="asc-actions"><button id="ascAddGoal" type="button">+ TRACK GOAL</button></div><div id="ascGoals" class="asc-stack"></div>
+  </div>
+  <div class="panel compact asc-panel">
+   <div class="panel-title"><div><span class="panel-glyph">✉</span> RECRUITMENT STARGATE</div><span class="light-label">COPY / SHARE, NOT IN-GAME POSTING</span></div>
+   <p class="section-note">Generate a friendly outreach draft from your editable alliance name, server and requirements.</p>
+   <div class="asc-fields"><label>Minimum CP (optional)<input id="ascRecruitCP" maxlength="24" placeholder="1B+"/></label><label>Alliance strength / benefit<input id="ascRecruitBenefit" maxlength="110" placeholder="Teamwork, strategy and active events"/></label></div>
+   <div class="asc-actions"><button id="ascRecruitBuild" type="button">GENERATE DRAFT</button><button id="ascRecruitCopy" type="button">COPY DRAFT</button></div>
+   <textarea id="ascRecruitText" class="asc-draft" rows="4" maxlength="700" aria-label="Recruitment message"></textarea>
+  </div>
+ </div>
+ <div class="panel compact asc-panel">
+  <div class="panel-title"><div><span class="panel-glyph">◎</span> VISUAL MEMORY LAB</div><span class="light-label">SCREENSHOT HASH EXPERIMENT</span></div>
+  <p class="section-note">Teach BeardAI a label using a screenshot you select. Later compare another image against your saved examples. This uses a small visual fingerprint, not a trained AI vision model. Similarity percentages are <b>not recognition confidence</b>. Never rely on a match without visually checking it.</p>
+  <div class="asc-fields"><label>Building or screen name<input id="ascVisualLabel" maxlength="75" placeholder="Mechanical Workshop"/></label><label>Choose screenshot<input id="ascVisualFile" type="file" accept="image/png,image/jpeg,image/webp"/></label></div>
+  <div class="asc-actions"><button id="ascVisualSave" type="button">LEARN LABEL</button><button id="ascVisualCompare" type="button">COMPARE IMAGE</button></div>
+  <div id="ascVisualResult" class="asc-output" aria-live="polite">No screenshot submitted. Only a compact visual fingerprint is stored locally.</div><div id="ascVisualCatalog" class="asc-stack"></div>
+ </div>
+ <div class="panel compact asc-panel">
+  <div class="panel-title"><div><span class="panel-glyph">♧</span> ROYAL DATA PORTAL</div><span class="light-label">MANUAL DEVICE TRANSFER</span></div>
+  <p class="section-note">Back up operations, event schedules, battle reports, goals, and visual labels. Import replaces Ascension data only; it does not change your Intel, Mission, community login, or game data. No server upload.</p>
+  <textarea id="ascRestoreText" class="asc-draft" rows="3" placeholder="Paste a BeardAI Ascension backup JSON here..." spellcheck="false"></textarea>
+  <div class="asc-actions"><button type="button" id="ascRestore">VALIDATE & IMPORT BACKUP</button></div><p id="ascStatus" class="asc-status" role="status">Ascension tools are saved locally on this device.</p>
+ </div>
+ <div class="info-card"><b>Community server:</b> The Chat Hub becomes multiplayer only after the BeardAI owner deploys and configures the Supabase backend, then verifies cross-device messages. A successful local demo or a configured URL is not proof that the live server works.</div>
+</section>
+
+ <section class="tab-body" id="tab-accounts">
+  <div class="panel compact"><div class="panel-title"><div><span class="panel-glyph">♙</span> ACCOUNT PROFILES</div><span class="badge" id="accountsCountBadge">0 LOCAL</span></div>
+   <p class="section-note">Organize your accounts without supplying passwords. Profiles here are labels only; they do not sign into the game.</p>
+   <form id="profileForm" class="add-row"><input id="profileName" type="text" maxlength="35" autocomplete="off" placeholder="Enter nest nickname" required minlength="2"/><button class="add-btn" type="submit">+ ADD</button></form>
+   <div class="import-line"><button id="btnImport" class="text-btn" type="button">IMPORT 13 CURRENT USE IDS</button><small>Labels only · no emulator connection</small></div>
+   <div class="profile-list" id="profileList"><div class="empty-row">No local profiles yet. Add your first nest above.</div></div>
+  </div>
+  <div class="info-card">♛ &nbsp; Your Ant Legion account stays in the official game. BeardAI does not request game credentials.</div>
+ </section>
+ <section class="tab-body" id="tab-logs">
+  <div class="panel compact"><div class="panel-title"><div><span class="panel-glyph">☷</span> OPERATION LOG</div><button id="btnExport" class="text-btn">EXPORT ↗</button></div>
+   <div class="log-console" id="fullLogs"><div class="log-empty">No diagnostic events yet.</div></div>
+   <div class="log-actions"><button id="btnStop" class="stop-btn">■ STOP SCREEN ANALYSIS</button><p>Screen data is processed locally. No automatic uploads.</p></div>
+  </div>
+ </section>
+</main>
+<footer class="footer"><div class="goldline"></div>BEARDAI <span>✦</span> HOLY GRAIL <span>✦</span> ANDROID EDITION<br/><small>ROYAL MISSION CONTROL · BUILD 5.0 · PUBLIC PREVIEW</small></footer>
+</div>
+<script src="knowledge.js"></script>
+<script src="verified-directory.js"></script>
+<script src="app.js"></script>
+<script src="smart.js"></script>
+<script src="verified-ui.js"></script>
+<script src="review-sync.js"></script>
+<script src="mission-engine.js"></script>
+<script src="intelligence-engine.js"></script>
+<script src="chat-companion.js"></script>
+<script src="community-default-config.js"></script>
+<script src="community-chat.js"></script>
+<script src="ascension-engine.js"></script>
+<script src="update-center.js"></script>
+<script src="royal-tasks.js"></script>
+<script src="feedback-center.js"></script>
+<script src="royal-workbench-core.js"></script>
+<script src="royal-workbench.js"></script>
+<script src="royal-feature-map.js"></script>
+<script src="iphone-web.js"></script></body></html>
