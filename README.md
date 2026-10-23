@@ -6,11 +6,13 @@
 
 ## 📱 Download BeardAI
 
-**[View Android Releases](https://github.com/AntonioRose-design/BeardAI-Downloads/releases)**
+**[Download BeardAI Android APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v0.2.0-beta/BeardAI-Android-v0.2.0-beta.apk)**
 
-When the `v0.2.0-beta` release is published, open it and download **`BeardAI-Android-v0.2.0-beta.apk`** from **Assets**. The download is intended to work for anyone without GitHub sign-in.
+[View release details and beta notes](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v0.2.0-beta)
 
-> **Release status:** The public repository is ready; **the APK release attachment is not published yet**. Until the file appears under Releases → Assets, do not mistake the build documentation for an actual download.
+The **v0.2.0-beta** prerelease is live with `BeardAI-Android-v0.2.0-beta.apk` attached under Assets. No GitHub login is required to download the public asset.
+
+> **Release status: PUBLIC BETA AVAILABLE.** The uploaded APK is SHA-256 verified. On-device testing of this exact build is still pending.
 
 ## What BeardAI does
 
@@ -26,7 +28,7 @@ When the `v0.2.0-beta` release is published, open it and download **`BeardAI-And
 
 ## Install on Android
 
-1. From [Releases](https://github.com/AntonioRose-design/BeardAI-Downloads/releases), choose **v0.2.0-beta** once published.
+1. From [Releases](https://github.com/AntonioRose-design/BeardAI-Downloads/releases), choose **v0.2.0-beta**.
 2. Under **Assets**, download `BeardAI-Android-v0.2.0-beta.apk` on your Android phone.
 3. Open **Files → Downloads**, select the APK, and review the installation prompts.
 4. Open BeardAI. Grant screen-sharing permission **only when you choose to start AI Vision**.
