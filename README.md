@@ -1,5 +1,7 @@
 # 👑 BeardAI — Official Public Downloads
 
+**Future New Era upgrade:** Deliberately held in private development; no new APK, ZIP, or iPhone site deployment until the substantial feature set is implemented and independently tested. **5.0 remains the current public version.** Follow the [source repository](https://github.com/AntonioRose-design/BeardAI-Android) for development status rather than assuming roadmap items have shipped.
+
 ## Latest release — BeardAI 5.0 Royal Workbench & Feature Compass
 
 **[Open the verified public 5.0 prerelease](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v5.0.0-royal-workbench-preview)** · [Source repository and 5.0 features](https://github.com/AntonioRose-design/BeardAI-Android)
