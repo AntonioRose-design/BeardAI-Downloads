@@ -4,6 +4,8 @@
 
 > **Windows 2.3.1 launcher hotfix (development; not yet in the public release):** A Windows startup conflict with earlier BeardAI builds was fixed by isolating the new local server on port 18743. The new ZIP is a single extractable desktop package instead of a ZIP nested inside a GitHub Actions artifact. Windows automatically checks for newer releases on launch and offers an approved, SHA-256-verified update download and side-by-side installation using `CHECK_BEARDAI_UPDATES.bat`; the old folder remains as rollback. Unattended installation and automatic local-data migration are not promised. This patch requires publishing a newer Windows release binary before existing users can download it from the public Releases page.
 
+> **iPhone availability:** An iOS/iPhone edition is planned, **not yet downloadable**. The development repository now documents a hosted Safari Add-to-Home-Screen web app first, followed by a signed TestFlight iOS app. Android APKs cannot run on iPhone; iOS does not permit silent replacement of native apps or launcher icons.
+
 ## 🪨 Latest public release: BeardAI 2.3.0 — Rolling Stone Intel Expansion
 
 **Released October 23, 2026 • Android APK and Windows portable desktop ZIP • Public preview**
