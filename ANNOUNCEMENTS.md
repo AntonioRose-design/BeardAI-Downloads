@@ -1,8 +1,8 @@
 # BeardAI Official Announcements
 
-## October 23, 2026 — 4.0 release candidate ready for publication
+## October 23, 2026 — 4.0 Royal Command public prerelease published
 
-4.0 developer Windows and Android builds passed CI. [Release notes](RELEASE_NOTES_v4.0.0-royal-command-preview.md) are prepared. The publisher must run and verify public artifacts before 4.0 can be called released. Until then [3.0.1](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v3.0.1-royal-evolution-hotfix) is the official downloadable version.
+Android and Windows 4.0 packages and checksums are live on the [4.0 public release](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.0-royal-command-preview). [Release notes](RELEASE_NOTES_v4.0.0-royal-command-preview.md) describe the responsive theme, Feedback Center, Realtime chat attempt with fallback, and known limitations. Both platform builds passed GitHub Actions. 4.0 is a prerelease and does not include 1,000 finished features.
 
 
 
