@@ -1,63 +1,48 @@
-# 👑 BeardAI — Official Downloads
+# 👑 BeardAI — Official Android & Windows Downloads
 
-**Updater development:** A new Windows developer-branch utility now checks official releases, requests consent, verifies the downloaded ZIP using GitHub's SHA-256 digest, and stages it. It does **not** automatically replace running application files; tested backup/rollback is still required before promoting it as an automatic installer. Android currently links to official releases and still requires manual APK installation. The public 2.2.1 downloads do not contain this newer updater utility.
+## 🪨 Latest public release: BeardAI 2.3.0 — Rolling Stone Intel Expansion
 
-## 🪨 Rolling Stone 2.3 — Built and CI-Tested (October 23, 2026)
+**Released October 23, 2026 • Android APK and Windows portable desktop ZIP • Public preview**
 
-**The upcoming build adds 31 Intel guide playbooks**, bringing the field guide from 54 to **85 entries**, and corrects the Mechanical Scorpion Fusion Lab to support **player-specific gear levels 1 through 10** for each of six pieces. Existing level 7 progress remains tied to the player's saved data; new users are not presumed level 7. Ingredient costs are explicitly unknown until entered from in-game evidence. A new automated regression test covers level choices and guide expansion.
+**[📱 DOWNLOAD ANDROID 2.3 APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.3.0-rolling-stone-preview/BeardAI-Android-v2.3.0-Rolling-Stone-Preview.apk)**
 
-**Release status:** Android and Windows 2.3 preview binaries **passed GitHub Actions**, with both new packages prepared for upload. The public GitHub Release assets have **not** yet been updated; published v2.2.1 files still do not contain Rolling Stone. [2.3 notes, checksums and build verification](https://github.com/AntonioRose-design/BeardAI-Downloads/blob/main/RELEASE_NOTES_v2.3.0-rolling-stone-preview.md). Automatic installation remains unfinished.
+**[🖥️ DOWNLOAD WINDOWS 2.3 ZIP](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.3.0-rolling-stone-preview/BeardAI-Windows-v2.3.0-Rolling-Stone-Preview.zip)**
 
-## ✅ Latest public release: BeardAI 2.2.1 Owner Console Preview
+[📜 Official 2.3 release](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v2.3.0-rolling-stone-preview) · [2.3 release notes and checksums](RELEASE_NOTES_v2.3.0-rolling-stone-preview.md) · [All versions](https://github.com/AntonioRose-design/BeardAI-Downloads/releases)
 
-**[📱 Download Android 2.2.1 APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.2.1-owner-preview/BeardAI-Android-v2.2.1-owner-preview.apk)** · **[🖥️ Download Windows 2.2.1 ZIP](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.2.1-owner-preview/BeardAI-Windows-v2.2.1-owner-preview.zip)**
+### What's new in Rolling Stone 2.3
 
-[Release notes and checksums](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v2.2.1-owner-preview)
+- **Mechanical Scorpion Fusion Lab:** Each of six gear pieces has its own saved current level from **1 through 10**. Level 7 is not assumed for everyone; existing players retain their saved progress.
+- Target levels **1–10**, tracking partially completed fusion stages and player-entered costs. Unknown ingredients remain unknown—not free.
+- Per-piece gear audit, target-level mismatch warnings and missing recipe coverage.
+- **31 additional Intel workflows**; the searchable offline Field Guide expands from **54 to 85 entries**.
+- Intel playbooks for resource planning, OCR evidence review, gear progression, snapshots, cross-device backups and mission tracking.
+- Community chat with owner approval/revoke controls, recently-online presence, emojis and reactions.
+- Windows portable package contains a **consent-based, SHA-256-verified update download/staging utility**. It does **not** silently replace installed app files.
+- Android can check official releases but **cannot automatically install** the new APK without the normal Android installer approval.
 
-Includes the Owner Members Console (approve, deny, revoke), activity-based online/offline indicators, emojis, message reactions, and a manual/launch-time release checker. Both public assets have been verified as attached. **The release checker is not an automatic binary installer.** Users must still install a new Android APK or Windows ZIP themselves; do not tell users their existing installation auto-updates.
+### Get started
 
-## 📱 Download BeardAI
+**Android:** Download the APK above, open it, and approve installation if prompted. It is a preview/debug-signed APK; a differently signed earlier installation may not accept an in-place update. **Export your local Intel data before changing installations.**
 
-### ✨ New: 2.2 Emoji Community Preview
-**[⬇ Download BeardAI Android 2.2 Preview APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.2.0-dev/BeardAI-Android-2.2-dev-preview.apk)**
+**Windows:** Download the ZIP, extract it fully into a **new folder**, then run `OPEN_BEARDAI_NOW.bat`. Do not start the app from inside the ZIP. Export local Intel data first if switching folders. The package includes `CHECK_BEARDAI_UPDATES.bat` to check and stage newer verified packages. It is not a hands-off installation service.
 
-[View 2.2 preview release](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v2.2.0-dev) · **Experimental prerelease** · 46.6 MB
+**Community:** Register using a separate BeardAI email/password (never Ant Legion credentials), confirm email, and wait for the community owner to approve access. Community messages are not end-to-end encrypted.
 
-What's in this preview:
-- 😀 Emoji picker inside community chat
-- ❤️ 😂 🔥 👑 👍 🐜 Message reactions for approved members
-- 🔔 In-app check for newer releases on official GitHub (view/download only)
-- 💬 Existing General, Strategy, Events and Help chat rooms
-- 🔒 Owner-controlled access with separate BeardAI accounts
+### Download verification
 
-**Not yet available:** GIF search/send, image attachments, silent update installation. Do not mistake this development preview for a finished 2.2 media release. Android-device and two-user end-to-end tests are still needed.
+- Android APK SHA-256: `91dad279aa8e9ee1e8f024cfbf4ec4b1cdff7d8779cfdf297643072683714a29`
+- Windows ZIP SHA-256: `22cbbf89d307e7f0e37ed999cc88e2a72e8c319c378af52a0586183ed726ca1c`
+- [Android build tests](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40003682686) · [Windows build and startup test](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40003730388)
 
-### 🛡️ Previous beta: 2.1.2
-**[Download BeardAI Android 2.1.2 Beta](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.1.2-beta/BeardAI-Android-v2.1.2-beta.apk)**
+CI verified builds and specific regression tests, **not** every device or upgrade path. Please report issues in [GitHub Issues](https://github.com/AntonioRose-design/BeardAI-Downloads/issues).
 
-[All releases](https://github.com/AntonioRose-design/BeardAI-Downloads/releases) · [Report a bug or suggest a feature](https://github.com/AntonioRose-design/BeardAI-Downloads/issues)
+### Previous releases
 
-## 👑 What is BeardAI?
+- [2.2.1 Owner Console](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v2.2.1-owner-preview)
+- [2.2.0 Emoji Preview](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v2.2.0-dev)
+- [2.1.2 Beta](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v2.1.2-beta)
 
-BeardAI is an independent Android/Windows companion with Royal Mission Control, opt-in screen capture, on-device OCR, mission and Intel planning, and a separate invite-only player community. Its chat is **not** the official Ant Legion game chat.
+---
 
-## 🚀 Install and get started
-
-1. Download the APK for your chosen version above.
-2. Open it on Android and review the installation warning for this debug-signed beta. Updates can require reinstalling if signing keys differ; back up local data first.
-3. Open BeardAI → Community Chat.
-4. Register with an **independent BeardAI email/password** (never an Ant Legion password).
-5. Verify your email and wait for owner approval.
-6. Open General, Strategy, Events or Help and test chat. Emoji controls are in the **2.2 preview only**.
-
-If the app detects a release, it can link you to the official GitHub page; normal Android APK installation always requires user approval.
-
-## 🔐 Community rules and privacy
-
-Membership approval is required; chat content is not end-to-end encrypted, and moderators can access it. Do not share private coordinates, passwords, verification codes or sensitive documents. Messages and reactions are hosted in Supabase. Report abuse rather than responding to it.
-
-## 🧪 Beta testing
-
-We welcome feedback on account sign-up, approval, Android chat loading, emoji/reaction delivery, and connectivity. **Media upload and GIF features are still under development.** Try a test account, not a game account.
-
-**Independent project disclaimer:** BeardAI is not affiliated with, sponsored by, or endorsed by Ant Legion, 37GAMES, Google, or OpenAI. It does not provide autonomous in-game control.
+**About:** BeardAI is an independent, local-first Ant Legion companion for Intel planning, gear fusion tracking, opt-in OCR, verified references, progress snapshots and an owner-moderated community. Not affiliated with or endorsed by Ant Legion or its publisher. BeardAI does not connect to game accounts or perform autonomous gameplay.
