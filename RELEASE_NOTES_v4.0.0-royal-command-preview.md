@@ -1,6 +1,6 @@
 # BeardAI 4.0.0 Royal Command Preview — Release Notes
 
-**Status: awaiting successful public publishing workflow.** This document is prepared ahead of release; publishing this file does not publish Android/Windows binaries.
+**Status: published public prerelease on October 23, 2026.** [Verified public release](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.0-royal-command-preview) contains Android APK, Windows ZIP, and SHA256SUMS.txt. [Build workflow run](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40014377871).
 
 ## Implemented in the 4.0 development branch
 - New Royal Command responsive dark interface and wider desktop layouts; keyboard focus styling and reduced-motion support.
@@ -17,10 +17,10 @@
 - No iPhone IPA, TestFlight or hosted PWA has been released.
 - A passing CI build is not proof of device compatibility or live Supabase latency.
 
-## Public release target (works after publication)
+## Published release assets
 - [Release v4.0.0](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.0-royal-command-preview)
 - Android: `BeardAI-Android-v4.0.0-Royal-Command-Preview.apk`
 - Windows: `BeardAI-Windows-v4.0.0-Royal-Command-Preview.zip`
 - `SHA256SUMS.txt`
 
-**Publishing:** [Run GitHub Actions publisher](https://github.com/AntonioRose-design/BeardAI-Android/actions/workflows/publish-public-hotfix.yml) on `main`. Wait for android, windows, and publish jobs to pass; verify assets on the new release page.
+**Release note:** This is a prerelease, not confirmation of 1,000 completed features, iPhone distribution or production device testing.
