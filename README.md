@@ -1,5 +1,11 @@
 # 👑 BeardAI — Official Downloads
 
+## iPhone (free web app) — deployment prepared
+
+The free iPhone Home Screen web app has been developed in the [BeardAI source repository](https://github.com/AntonioRose-design/BeardAI-Android/tree/beardai-2.2-community-media-updates/ios) and has a new [GitHub Actions publishing workflow](https://github.com/AntonioRose-design/BeardAI-Android/actions/workflows/publish-iphone-pwa.yml). **The iPhone site is not yet verified live.** Enable GitHub Pages in [Downloads → Settings → Pages](https://github.com/AntonioRose-design/BeardAI-Downloads/settings/pages) after the workflow publishes the `gh-pages` branch. Then confirm the HTTPS URL loads before sharing it. No Apple Developer membership needed for Safari Home Screen installation.
+
+
+
 ## Latest verified public release — 4.0.1 Royal Command Launcher Fix
 
 The **[public 4.0.1 prerelease](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.1-royal-command-launcher-fix)** has passed Android, Windows and publishing jobs in [GitHub Actions](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40015513178).
@@ -27,7 +33,7 @@ The [1,000-item engineering backlog](https://github.com/AntonioRose-design/Beard
 | --- | --- |
 | Android | Public 4.0.1 APK |
 | Windows | Public 4.0.1 ZIP |
-| iPhone | No published IPA, TestFlight, or hosted web app; [iOS source roadmap](https://github.com/AntonioRose-design/BeardAI-Android/tree/beardai-2.2-community-media-updates/ios) |
+| iPhone | No published IPA or TestFlight; free hosted web app prepared but not yet verified live; [iOS source roadmap](https://github.com/AntonioRose-design/BeardAI-Android/tree/beardai-2.2-community-media-updates/ios) |
 
 Save a local backup before updating. BeardAI is an independent companion, not affiliated with Ant Legion. Never provide game account credentials.
 
