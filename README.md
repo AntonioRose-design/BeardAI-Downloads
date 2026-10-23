@@ -1,9 +1,8 @@
 # 👑 BeardAI — Official Downloads
 
-## iPhone (free web app) — deployment prepared
+## iPhone web app — GitHub Pages deployed
 
-The free iPhone Home Screen web app has been developed in the [BeardAI source repository](https://github.com/AntonioRose-design/BeardAI-Android/tree/beardai-2.2-community-media-updates/ios) and has a new [GitHub Actions publishing workflow](https://github.com/AntonioRose-design/BeardAI-Android/actions/workflows/publish-iphone-pwa.yml). **The iPhone site is not yet verified live.** Enable GitHub Pages in [Downloads → Settings → Pages](https://github.com/AntonioRose-design/BeardAI-Downloads/settings/pages) after the workflow publishes the `gh-pages` branch. Then confirm the HTTPS URL loads before sharing it. No Apple Developer membership needed for Safari Home Screen installation.
-
+**[Open BeardAI on iPhone in Safari](https://antoniorose-design.github.io/BeardAI-Downloads/)**. GitHub Pages [deployment run 40016809022](https://github.com/AntonioRose-design/BeardAI-Downloads/actions/runs/40016809022) completed successfully and the `gh-pages` branch contains `index.html`, manifest, icons, Royal Workbench, and other frontend assets. On iPhone use **Share → Add to Home Screen**. **Safari behavior and Supabase login still require device testing.** The website is a free PWA, not a signed IPA or TestFlight app.
 
 
 ## Latest verified public release — 4.0.1 Royal Command Launcher Fix
