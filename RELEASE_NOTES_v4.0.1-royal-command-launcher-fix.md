@@ -1,6 +1,6 @@
 # BeardAI 4.0.1 Royal Command Launcher Fix — Release Candidate
 
-**Status:** Development candidate; no public 4.0.1 binaries until the automated Android/Windows publishing workflow passes and uploads real assets.
+**Status:** Published public prerelease October 23, 2026. [Official release](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.1-royal-command-launcher-fix) includes Android APK, Windows ZIP and SHA256SUMS.txt; [publishing workflow succeeded](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40015513178).
 
 ## Corrected Windows launcher behavior
 - Windows 4.0.0 used the same localhost port and health identity as 3.0.1, allowing a fresh 4.0 shortcut to connect to an already-running 3.0 server.
@@ -14,7 +14,7 @@
 ## Remaining limitations
 Android preview APKs may be debug-signed differently; export data before replacing prior versions. The Windows port change may isolate browser local storage, so export Intel backups before moving from older versions. Account gameplay automation and iPhone IPA/TestFlight do not exist in these builds.
 
-## Expected public files after successful publishing
+## Published public files
 - `BeardAI-Android-v4.0.1-Royal-Command-Launcher-Fix.apk`
 - `BeardAI-Windows-v4.0.1-Royal-Command-Launcher-Fix.zip`
 - `SHA256SUMS.txt`
