@@ -1,42 +1,49 @@
 # 👑 BeardAI — Official Android Downloads
 
-**Current public release: v2.1.2-beta (October 23, 2026)**
+**Royal Mission Control • Independent Ant Legion player companion • Community Chat**
 
-## 📱 Download
+## 📱 Download BeardAI
 
-**[Download BeardAI Android v2.1.2 APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.1.2-beta/BeardAI-Android-v2.1.2-beta.apk)**
+### ✨ New: 2.2 Emoji Community Preview
+**[⬇ Download BeardAI Android 2.2 Preview APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.2.0-dev/BeardAI-Android-2.2-dev-preview.apk)**
 
-[View release details](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v2.1.2-beta) · [All releases](https://github.com/AntonioRose-design/BeardAI-Downloads/releases)
+[View 2.2 preview release](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v2.2.0-dev) · **Experimental prerelease** · 46.6 MB
 
-This is a debug-signed **experimental beta**, distributed for invited community testers. It is not a Play Store installation. Android may ask you to approve installations from your browser or file manager.
+What's in this preview:
+- 😀 Emoji picker inside community chat
+- ❤️ 😂 🔥 👑 👍 🐜 Message reactions for approved members
+- 🔔 In-app check for newer releases on official GitHub (view/download only)
+- 💬 Existing General, Strategy, Events and Help chat rooms
+- 🔒 Owner-controlled access with separate BeardAI accounts
 
-## What is available today
+**Not yet available:** GIF search/send, image attachments, silent update installation. Do not mistake this development preview for a finished 2.2 media release. Android-device and two-user end-to-end tests are still needed.
 
-- Royal Mission Control and an opt-in Android screen-capture/OCR workspace
-- Intel, Command, Ascension, mission and reference dashboards
-- **BeardAI Community Chat**: separate email/password accounts, owner approval, and General, Strategy, Events and Help rooms
-- Community messages and member-only room access via Supabase
+### 🛡️ Previous beta: 2.1.2
+**[Download BeardAI Android 2.1.2 Beta](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.1.2-beta/BeardAI-Android-v2.1.2-beta.apk)**
 
-## Testing status
+[All releases](https://github.com/AntonioRose-design/BeardAI-Downloads/releases) · [Report a bug or suggest a feature](https://github.com/AntonioRose-design/BeardAI-Downloads/issues)
 
-Android APK compiled and archive verified in GitHub Actions. The owner successfully tested registration, email confirmation, sign-in, approval and sending a message using the desktop community interface. Android on-device functionality, two-device exchange and cross-platform media are **not yet verified**.
+## 👑 What is BeardAI?
 
-## 2.2 developer preview (not a public release)
+BeardAI is an independent Android/Windows companion with Royal Mission Control, opt-in screen capture, on-device OCR, mission and Intel planning, and a separate invite-only player community. Its chat is **not** the official Ant Legion game chat.
 
-On October 23, 2026, private GitHub Actions successfully built an Android and a Windows development artifact from the `beardai-2.2-community-media-updates` branch. The preview includes an emoji composer, member-only emoji reactions, and a GitHub update-availability checker. These changes are **not** in the public 2.1.2 APK. The Windows artifact retains an older 2.1.2 filename despite its newer source branch; it must not be labeled as a finished 2.2 release. Media uploads and automatic installation remain incomplete. Do not distribute the preview as the official beta.
+## 🚀 Install and get started
 
-## Coming in 2.2 development
+1. Download the APK for your chosen version above.
+2. Open it on Android and review the installation warning for this debug-signed beta. Updates can require reinstalling if signing keys differ; back up local data first.
+3. Open BeardAI → Community Chat.
+4. Register with an **independent BeardAI email/password** (never an Ant Legion password).
+5. Verify your email and wait for owner approval.
+6. Open General, Strategy, Events or Help and test chat. Emoji controls are in the **2.2 preview only**.
 
-Emoji picker and message reactions, GIF sharing, private image attachments and **in-app update availability notices** for Android and Windows are planned. These features **are not part of the currently downloadable 2.1.2 release**. Installation of Android APK updates requires user confirmation; Windows will offer an opt-in updater that preserves local data.
+If the app detects a release, it can link you to the official GitHub page; normal Android APK installation always requires user approval.
 
-## Safety and privacy
+## 🔐 Community rules and privacy
 
-The community is independent of Ant Legion and 37GAMES. **Do not use your Ant Legion password.** Community chat is not end-to-end encrypted. Moderation and owner approval are required. Never upload private coordinates, passwords, account tokens or personal documents.
+Membership approval is required; chat content is not end-to-end encrypted, and moderators can access it. Do not share private coordinates, passwords, verification codes or sensitive documents. Messages and reactions are hosted in Supabase. Report abuse rather than responding to it.
 
-Only download updates from this official GitHub repository. A public download link is not an update installer; compare release versions and verify publisher/signature before replacing any installed APK.
+## 🧪 Beta testing
 
-## Development and feedback
+We welcome feedback on account sign-up, approval, Android chat loading, emoji/reaction delivery, and connectivity. **Media upload and GIF features are still under development.** Try a test account, not a game account.
 
-- [Download and release history](https://github.com/AntonioRose-design/BeardAI-Downloads/releases)
-- [Report problems](https://github.com/AntonioRose-design/BeardAI-Downloads/issues)
-- The application source is kept in a separate private development repository.
+**Independent project disclaimer:** BeardAI is not affiliated with, sponsored by, or endorsed by Ant Legion, 37GAMES, Google, or OpenAI. It does not provide autonomous in-game control.
