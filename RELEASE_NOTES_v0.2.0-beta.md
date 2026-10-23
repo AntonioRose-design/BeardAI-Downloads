@@ -1,6 +1,8 @@
 # BeardAI Android v0.2.0-beta — Public testing release
 
-**Status:** Build compiled successfully; beta remains experimental. APK asset pending publication.
+**Status:** Public educational beta available. APK verified with SHA-256; real-device testing of this exact build remains incomplete.
+
+**[Download APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v0.2.0-beta/BeardAI-Android-v0.2.0-beta.apk)**
 
 BeardAI Royal Mission Control is a standalone Android screen-analysis learning project. It has a royal-themed dashboard and permission-based, on-device computer vision. It is **not** a game automation bot.
 
