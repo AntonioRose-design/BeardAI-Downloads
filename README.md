@@ -1,8 +1,14 @@
 # 👑 BeardAI — Official Downloads
 
-## BeardAI 4.0 public rollout — release workflow ready
+## Latest public release — BeardAI 4.0 Royal Command Preview
 
-**4.0 Android and Windows preview source/build tests passed.** The public release is **not live until the [GitHub publishing workflow](https://github.com/AntonioRose-design/BeardAI-Android/actions/workflows/publish-public-hotfix.yml) is run on main and reports success**. The existing 3.0.1 links below remain the valid public downloads. [4.0 release notes](RELEASE_NOTES_v4.0.0-royal-command-preview.md) describe the new responsive interface, Feedback Center, conditional live chat and limitations. The 1,000-item roadmap is not shipped functionality.
+**Published October 23, 2026.** The [4.0 prerelease](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.0-royal-command-preview) contains both Android and Windows files and [SHA-256 checksums](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.0-royal-command-preview/SHA256SUMS.txt). [GitHub Actions run](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40014377871) built both packages successfully.
+
+- **[Android 4.0 APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.0-royal-command-preview/BeardAI-Android-v4.0.0-Royal-Command-Preview.apk)**
+- **[Windows 4.0 ZIP](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.0-royal-command-preview/BeardAI-Windows-v4.0.0-Royal-Command-Preview.zip)**
+- **[4.0 release memo](RELEASE_NOTES_v4.0.0-royal-command-preview.md)** · **[Announcements](ANNOUNCEMENTS.md)**
+
+Includes the Royal Command responsive theme, Feedback Center for reviewed GitHub issue submissions, and a community chat implementation that attempts Supabase Realtime with 3-second polling fallback. Live-chat latency has not been verified on production service. **The 1,000-item roadmap is not 1,000 finished features.** iPhone/TestFlight is not available. Android debug APK may require reinstall if the signing certificate changed; back up data first.
 
 
 
