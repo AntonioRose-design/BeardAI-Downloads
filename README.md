@@ -1,4 +1,16 @@
-# 👑 BeardAI — Official Android Downloads
+# 👑 BeardAI — Official Downloads
+
+## 👑 Newest build: BeardAI 2.2 Owner Console Preview
+
+**Built successfully on GitHub Actions, October 23, 2026.** The latest Android and Windows development packages now include the owner-only member management console (approve, deny, revoke), online/offline heartbeat, emoji composer/reactions and a release-availability checker.
+
+**Public release status:** The previously published [v2.2.0-dev Android APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v2.2.0-dev) is **older**. To make the new owner-console build downloadable by everyone, upload the latest compiled APK and Windows ZIP to a new public prerelease, suggested tag `v2.2.1-owner-preview`. Until those files have been uploaded, the links on the existing public release are *not* the latest features.
+
+[Android Actions verification](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40001271198) · [Windows Actions verification](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40001271097)
+
+**Update limitations:** Release notifications work in the new client, but automatic installation is not implemented on Android or Windows. Android requires installation confirmation. GIFs and photo uploads remain under development.
+
+
 
 **Royal Mission Control • Independent Ant Legion player companion • Community Chat**
 
