@@ -1,3 +1,9 @@
+## 3.0.1 automatic publication and Windows launcher repair
+
+The source now contains a [verified Android + Windows public-release workflow](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/.github/workflows/publish-public-hotfix.yml), which builds both platforms, checks the Windows launcher and publishes a new release `v3.0.1-royal-evolution-hotfix` with checksums. **The workflow requires the owner's one-time `BEARDAI_PUBLIC_RELEASE_TOKEN` Actions secret on the private development repository before it can upload to the public Downloads repository.** Until the workflow runs successfully, no 3.0.1 public asset exists.
+
+The existing 3.0.0 public Windows file has stale 2.3 labels and may reuse an old localhost server. A corrected Windows 3.0 build passed [Windows CI](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40009429734), but that does not retroactively modify the published 3.0.0 ZIP. Android APK installation still requires OS approval and a consistent signing certificate. iPhone/TestFlight remains unavailable.
+
 > **Windows 3.0 launcher hotfix:** The current 3.0 release's Windows ZIP still contains stale 2.3 branding and may reuse an older localhost process. A corrected Windows 3.0 package with a new localhost port and health identity has been built in the development branch and must replace the existing ZIP after its startup test. Until that asset is replaced, the current published Windows 3.0 file is NOT the corrected build.
 
 ## ✅ Royal Evolution 3.0 prerelease — partially published
