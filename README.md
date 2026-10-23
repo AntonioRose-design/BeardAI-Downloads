@@ -1,35 +1,34 @@
 # 👑 BeardAI — Official Downloads
 
-## Current public release: 4.0.0 Royal Command Preview
+## Latest verified public release — 4.0.1 Royal Command Launcher Fix
 
-The [4.0.0 public prerelease](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.0-royal-command-preview) contains Android and Windows downloads. The Android, Windows and publishing jobs [passed GitHub Actions](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40014377871).
+The **[public 4.0.1 prerelease](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.1-royal-command-launcher-fix)** has passed Android, Windows and publishing jobs in [GitHub Actions](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40015513178).
 
-- **[Download BeardAI 4.0.0 Android APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.0-royal-command-preview/BeardAI-Android-v4.0.0-Royal-Command-Preview.apk)**
-- **[Download BeardAI 4.0.0 Windows ZIP](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.0-royal-command-preview/BeardAI-Windows-v4.0.0-Royal-Command-Preview.zip)**
-- [SHA-256 checksums](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.0-royal-command-preview/SHA256SUMS.txt) · [4.0.0 detailed release notes](RELEASE_NOTES_v4.0.0-royal-command-preview.md)
+- [📱 Download Android 4.0.1 APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.1-royal-command-launcher-fix/BeardAI-Android-v4.0.1-Royal-Command-Launcher-Fix.apk)
+- [🖥️ Download Windows 4.0.1 ZIP](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.1-royal-command-launcher-fix/BeardAI-Windows-v4.0.1-Royal-Command-Launcher-Fix.zip)
+- [🔐 SHA-256 checksums](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.1-royal-command-launcher-fix/SHA256SUMS.txt)
+- [Release memo](RELEASE_NOTES_v4.0.1-royal-command-launcher-fix.md) · [Announcements](ANNOUNCEMENTS.md)
 
-### Windows 4.0.1 launcher fix — release candidate, not yet public
+### What changed in 4.0.1
 
-**If your 4.0.0 Windows app still shows 3.0**, the launcher may be attaching to an older localhost server. The candidate 4.0.1 launcher uses port **18754** and `BEARDAI_LOCAL_V400` instead of the old 3.0 port **18753** and health marker. The 4.0.1 files must still be published and verified before they replace the links above.
+Windows 4.0 could display the old 3.0 build because both used the same local web-server identity. **4.0.1 separates Windows port `18754` and health marker `BEARDAI_LOCAL_V400`**. Android and the Update Center have aligned 4.0.1 version identifiers. Existing Royal Command visual design, Feedback Center, Royal Tasks, Intel/Fusion Lab, and conditional Realtime chat attempt remain.
 
-[4.0.1 release memo](RELEASE_NOTES_v4.0.1-royal-command-launcher-fix.md) · [Automatic GitHub publisher](https://github.com/AntonioRose-design/BeardAI-Android/actions/workflows/publish-public-hotfix.yml) · [Latest announcements](ANNOUNCEMENTS.md)
+**Note:** Automatic updates and local-data migration are not fully validated end-to-end. The Android APK is debug-signed and may require backup/reinstallation. The public release is a prerelease.
 
-### Current 4.0 companion functionality
+### Work in progress — features not yet released
 
-Royal Command responsive layout, Feedback Center (user-reviewed GitHub issue composer), community chat with Supabase Realtime subscription attempts and three-second open-chat polling fallback, Royal Tasks while the app runs, Fusion Lab and Intel reference features. Live-service chat latency, consumer update migration and device-specific behavior are not fully tested.
+The development branch has a new **Royal Workbench** for task/upgrade cards, priorities, stages, search, and JSON export. It was committed **after** the 4.0.1 publisher began and is not part of the verified public 4.0.1 build. More features need implementation, individual tests and new published binaries.
 
-### Long-term feature development
+The [1,000-item engineering backlog](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_4_0_1000_FEATURES.md) is **not 1,000 completed features**. It lists future proposed work. There is no automated Ant Legion account control.
 
-The [1,000-item engineering backlog](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_4_0_1000_FEATURES.md) is a *plan*, **not 1,000 completed software features**. BeardAI does not automate Ant Legion gameplay or automatically deploy code from feedback.
+### Platform status
 
-### Platform status and installation
-
-| Platform | Status |
+| Platform | Available |
 | --- | --- |
-| Android | Public 4.0.0 prerelease; 4.0.1 candidate in development |
-| Windows | Public 4.0.0 prerelease; known 3.0 localhost collision; 4.0.1 correction in development |
-| iPhone | No IPA, hosted iPhone web app, or TestFlight build. [iOS development source](https://github.com/AntonioRose-design/BeardAI-Android/tree/beardai-2.2-community-media-updates/ios) |
+| Android | Public 4.0.1 APK |
+| Windows | Public 4.0.1 ZIP |
+| iPhone | No published IPA, TestFlight, or hosted web app; [iOS source roadmap](https://github.com/AntonioRose-design/BeardAI-Android/tree/beardai-2.2-community-media-updates/ios) |
 
-Back up saved data before changing builds. Windows localhost changes may separate saved browser data, and Android debug APKs may not update in place if their signing certificate changes. BeardAI is an independent Ant Legion companion, not affiliated with its publisher. Do not enter your Ant Legion password.
+Save a local backup before updating. BeardAI is an independent companion, not affiliated with Ant Legion. Never provide game account credentials.
 
-[Earlier GitHub releases](https://github.com/AntonioRose-design/BeardAI-Downloads/releases) · [Development source](https://github.com/AntonioRose-design/BeardAI-Android)
+[Source repository](https://github.com/AntonioRose-design/BeardAI-Android) · [Previous releases](https://github.com/AntonioRose-design/BeardAI-Downloads/releases)
