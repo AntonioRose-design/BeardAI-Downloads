@@ -1,5 +1,11 @@
 # 👑 BeardAI — Official Downloads
 
+## Windows 4.0 display issue — 4.0.1 repair in testing
+
+If Windows 4.0 still displays 3.0, the shared localhost server identity is the cause. **The current public 4.0 ZIP is not retroactively repaired.** The 4.0.1 candidate separates the 4.0 Windows server on port 18754 with a distinct health token. [See repair memo](RELEASE_NOTES_v4.0.1-royal-command-launcher-fix.md). A new public download is not available until CI passes and the publisher uploads it. The [1,000-item roadmap](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_4_0_1000_FEATURES.md) consists of proposed work, **not 1,000 completed additions**.
+
+
+
 ## Latest public release — BeardAI 4.0 Royal Command Preview
 
 **Published October 23, 2026.** The [4.0 prerelease](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.0-royal-command-preview) contains both Android and Windows files and [SHA-256 checksums](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v4.0.0-royal-command-preview/SHA256SUMS.txt). [GitHub Actions run](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40014377871) built both packages successfully.
