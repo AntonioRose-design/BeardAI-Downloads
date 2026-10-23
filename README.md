@@ -3,7 +3,7 @@
 > ### ✨ BEARDAI NEW ERA IS COMING — NOT YET RELEASED
 > The next major Android / Windows / iPhone Safari upgrade is aiming for **11,000 new fully functioning, independently verified features**, with **many more enhancements planned**. This is a development target, **not an announcement of 11,000 finished features**. No release date has been confirmed.
 >
-> Under active private development: **Sovereign Command, Sovereign Search, Evidence & Strategy Lab, Decision Studio, Scenario Lab, Sovereign Vault, Device Readiness** and improvements to the shared app experience. **[View the New Era preview and release notes](https://github.com/AntonioRose-design/BeardAI-Android/blob/new-era-11k-feature-lab/RELEASE_NOTES_NEW_ERA_DRAFT.md)** · [Development review](https://github.com/AntonioRose-design/BeardAI-Android/pull/3) · [Release readiness](https://github.com/AntonioRose-design/BeardAI-Android/issues/5).
+> Under active private development: **Sovereign Command, Sovereign Search, Evidence & Strategy Lab, Decision Studio, Scenario Lab, Sovereign Vault, Device Readiness** and improvements to the shared app experience. **[Read the public New Era coming-soon announcement](NEW_ERA_COMING_SOON.md)** · [Development review](https://github.com/AntonioRose-design/BeardAI-Android/pull/3) · [Release readiness](https://github.com/AntonioRose-design/BeardAI-Android/issues/5).
 >
 > **The current public Android APK, Windows ZIP, and live iPhone PWA are still BeardAI 5.0.** No New Era binary or public iPhone deployment has been published.
 
