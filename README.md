@@ -2,6 +2,8 @@
 
 **Future New Era upgrade:** Deliberately held in private development; no new APK, ZIP, or iPhone site deployment until the substantial feature set is implemented and independently tested. **5.0 remains the current public version.** Follow the [source repository](https://github.com/AntonioRose-design/BeardAI-Android) for development status rather than assuming roadmap items have shipped.
 
+**New Era release-readiness tracker:** [Read the current GitLab protection, testing, and 11,000-feature acceptance status](https://github.com/AntonioRose-design/BeardAI-Android/issues/5). GitLab `main` has protected-branch rules and its CI setup merge request passed; its saved required-merge-check settings and GitLab→GitHub synchronization still require confirmation. **No 11,000-feature build has been certified or released.**
+
 ## Latest release — BeardAI 5.0 Royal Workbench & Feature Compass
 
 **[Open the verified public 5.0 prerelease](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v5.0.0-royal-workbench-preview)** · [Source repository and 5.0 features](https://github.com/AntonioRose-design/BeardAI-Android)
