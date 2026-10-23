@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "2026-10-23.1",
+  "publishedAt": "2026-10-23",
+  "description": "Editor-approved publisher-attributed historical announcements. These are sources of reported changes, not live gameplay confirmations.",
+  "reviewPolicy": "Only approved publisher-attributed facts. Every record has source URLs and timeframe; OCR and user submissions are never automatically promoted.",
+  "facts": [
+    {
+      "id": "release-00",
+      "title": "Queen and Nest cap increased to level 45",
+      "category": "Patch Notes",
+      "detail": "The publisher's published release notes announce a maximum level of 45 for Queen and Nest.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "August 2026 / 7.1.199",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-01",
+      "title": "Mutant Soldier Upgrades research tree",
+      "category": "Patch Notes",
+      "detail": "A new tech tree named “Mutant Soldier Upgrades” was announced.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "August 2026 / 7.1.199",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-02",
+      "title": "Four Mutant Soldier types",
+      "category": "Patch Notes",
+      "detail": "Patch notes announce Mutant Soldiers in all four unit types.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "August 2026 / 7.1.199",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-03",
+      "title": "Skin and Collection Exchange Shop rewards",
+      "category": "Patch Notes",
+      "detail": "Shop reward additions were included in an official published update.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "August 2026 / 7.1.199",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-04",
+      "title": "Arcane Ant introduced",
+      "category": "Patch Notes",
+      "detail": "An official Ant Legion patch note announces a Specialized Ant named Arcane Ant. Role, exact skills, and acquisition are not stated in the release notes.",
+      "sources": [
+        {
+          "label": "googleplay_funtap",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgamevn"
+        }
+      ],
+      "level": "official",
+      "version": "September 2026 / 7.1.201",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-05",
+      "title": "Random nest and background skin display",
+      "category": "Patch Notes",
+      "detail": "The patch notes announce random skin display for Nest and Background appearances.",
+      "sources": [
+        {
+          "label": "googleplay_funtap",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgamevn"
+        }
+      ],
+      "level": "official",
+      "version": "September 2026 / 7.1.201",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-06",
+      "title": "Unit Promotion target level choice",
+      "category": "Patch Notes",
+      "detail": "Unit Promotion gains a target-level selection option.",
+      "sources": [
+        {
+          "label": "googleplay_funtap",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgamevn"
+        }
+      ],
+      "level": "official",
+      "version": "September 2026 / 7.1.201",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "release-07",
+      "title": "Alliance Rally information integrated",
+      "category": "Patch Notes",
+      "detail": "The September update says rally information can be seen and joined through several casual modes.",
+      "sources": [
+        {
+          "label": "googleplay_funtap",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgamevn"
+        }
+      ],
+      "level": "official",
+      "version": "September 2026 / 7.1.201",
+      "notes": "Publisher-posted store listing; features can differ by regional game version.",
+      "gameplay": false,
+      "acquisition": "Not applicable — game update feature"
+    },
+    {
+      "id": "ant-arcane",
+      "title": "Arcane Ant",
+      "category": "Specialized Ants",
+      "detail": "Arcane Ant is explicitly named as a new Specialized Ant in the publisher’s September 2026 patch notes. Skill descriptions, class, evolution, and acquisition are not provided there.",
+      "sources": [
+        {
+          "label": "googleplay_funtap",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgamevn"
+        }
+      ],
+      "level": "official",
+      "version": "September 2026",
+      "notes": "",
+      "gameplay": true,
+      "acquisition": "Current acquisition requirements not verified. Check the in-game Specialized Ant “To Obtain” details."
+    },
+    {
+      "id": "game-colony",
+      "title": "Build your ant colony",
+      "category": "Fundamentals",
+      "detail": "The official description says the player expands a colony, builds a base and develops an underground fortress.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "",
+      "notes": "",
+      "gameplay": false,
+      "acquisition": "Core gameplay"
+    },
+    {
+      "id": "game-hatch",
+      "title": "Hatch and raise specialized ants",
+      "category": "Fundamentals",
+      "detail": "Publisher description references collecting, hatching, and raising ants for legions. It does not specify current drop rates or every obtain method.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "",
+      "notes": "",
+      "gameplay": false,
+      "acquisition": "Core gameplay; specific ant acquisition varies"
+    },
+    {
+      "id": "game-troops",
+      "title": "Train troops and battle",
+      "category": "Fundamentals",
+      "detail": "Publisher description confirms troops can be trained for combat against rival armies.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "",
+      "notes": "",
+      "gameplay": false,
+      "acquisition": "Core gameplay"
+    },
+    {
+      "id": "game-resources",
+      "title": "Gather food, leaves and water",
+      "category": "Fundamentals",
+      "detail": "Publisher description explicitly mentions collecting food and water and fighting for resources; specific gathering rates and schedules need in-game verification.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "",
+      "notes": "",
+      "gameplay": false,
+      "acquisition": "Core gameplay"
+    },
+    {
+      "id": "game-alliance",
+      "title": "Alliances and tree-stump competition",
+      "category": "Fundamentals",
+      "detail": "Publisher description describes forming alliances and competing for the last tree stump.",
+      "sources": [
+        {
+          "label": "googleplay",
+          "url": "https://play.google.com/store/apps/details?id=com.global.antgame"
+        }
+      ],
+      "level": "official",
+      "version": "",
+      "notes": "",
+      "gameplay": false,
+      "acquisition": "Core gameplay"
+    }
+  ]
+}
