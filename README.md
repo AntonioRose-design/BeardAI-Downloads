@@ -1,5 +1,13 @@
 # 👑 BeardAI — Official Downloads
 
+## Royal Command 4.0 — preview in development
+
+The next [Royal Command 4.0 source branch](https://github.com/AntonioRose-design/BeardAI-Android/tree/beardai-2.2-community-media-updates) now contains a **modern responsive interface theme**, a Feedback Center (GitHub issue handoff), and a **Supabase Realtime WebSocket chat subscription with reconnect and 3-second polling fallback**. Actual instant chat depends on backend Realtime publication and authorization and has **not been live-service tested**. Windows 4.0 CI passed; public assets are **not yet attached to a new GitHub release**.
+
+[See the explicitly numbered 1,000-feature engineering backlog](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_4_0_1000_FEATURES.md) — a design/acceptance backlog, **not 1,000 shipped features**. Ant Legion account automation is not implemented. iPhone has no downloadable app.
+
+
+
 ## Latest public release: 3.0.1 Royal Evolution Hotfix
 
 **Status:** public **prerelease**. Android, Windows and publication jobs completed successfully on [GitHub Actions](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40012198311). This is a launcher/update hotfix and interactive companion preview, **not a release with 1,000 new features**.
