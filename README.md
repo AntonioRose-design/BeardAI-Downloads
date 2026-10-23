@@ -21,6 +21,10 @@ This is a debug-signed **experimental beta**, distributed for invited community 
 
 Android APK compiled and archive verified in GitHub Actions. The owner successfully tested registration, email confirmation, sign-in, approval and sending a message using the desktop community interface. Android on-device functionality, two-device exchange and cross-platform media are **not yet verified**.
 
+## 2.2 developer preview (not a public release)
+
+On October 23, 2026, private GitHub Actions successfully built an Android and a Windows development artifact from the `beardai-2.2-community-media-updates` branch. The preview includes an emoji composer, member-only emoji reactions, and a GitHub update-availability checker. These changes are **not** in the public 2.1.2 APK. The Windows artifact retains an older 2.1.2 filename despite its newer source branch; it must not be labeled as a finished 2.2 release. Media uploads and automatic installation remain incomplete. Do not distribute the preview as the official beta.
+
 ## Coming in 2.2 development
 
 Emoji picker and message reactions, GIF sharing, private image attachments and **in-app update availability notices** for Android and Windows are planned. These features **are not part of the currently downloadable 2.1.2 release**. Installation of Android APK updates requires user confirmation; Windows will offer an opt-in updater that preserves local data.
