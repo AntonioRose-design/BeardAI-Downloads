@@ -1,3 +1,7 @@
+## ✅ Royal Evolution 3.0 prerelease — partially published
+
+The [3.0 development release](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v3.0.0-royal-evolution-dev) is public. The **[Windows Royal Evolution ZIP](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v3.0.0-royal-evolution-dev/BeardAI-Royal-Evolution-Windows-Development.zip)** is confirmed attached and its SHA-256 matches the documented checksum. **The Android Royal Evolution APK is not yet attached**; upload `BeardAI-Royal-Evolution-Android-Development.apk` to that same release. No iPhone IPA or TestFlight build is available. This is a developer prerelease, not completion of the 100-feature roadmap.
+
 # 👑 BeardAI — Official Downloads & Cross-Platform Status
 
 ## 👑 Royal Evolution 3.0 — candidate builds prepared
