@@ -2,6 +2,9 @@
 
 **Royal Mission Control • Independent Ant Legion player companion • Community Chat**
 
+
+> **Build notice (October 23, 2026):** The public `v2.2.0-dev` APK is the **emoji/reactions preview**, not the newer Owner Members Console build. A later private-branch Android build has passed CI with owner-only Approve/Deny/Revoke and presence indicators, but the APK must be uploaded as a **new public prerelease asset** before friends can install that functionality. The admin console still needs physical-device tests; GIF/photo uploads are not included.
+
 ## 📱 Download BeardAI
 
 ### ✨ New: 2.2 Emoji Community Preview
