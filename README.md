@@ -1,5 +1,15 @@
 # 👑 BeardAI — Official Public Downloads
 
+> ### ✨ BEARDAI NEW ERA IS COMING — NOT YET RELEASED
+> The next major Android / Windows / iPhone Safari upgrade is aiming for **11,000 new fully functioning, independently verified features**, with **many more enhancements planned**. This is a development target, **not an announcement of 11,000 finished features**. No release date has been confirmed.
+>
+> Under active private development: **Sovereign Command, Sovereign Search, Evidence & Strategy Lab, Decision Studio, Scenario Lab, Sovereign Vault, Device Readiness** and improvements to the shared app experience. **[View the New Era preview and release notes](https://github.com/AntonioRose-design/BeardAI-Android/blob/new-era-11k-feature-lab/RELEASE_NOTES_NEW_ERA_DRAFT.md)** · [Development review](https://github.com/AntonioRose-design/BeardAI-Android/pull/3) · [Release readiness](https://github.com/AntonioRose-design/BeardAI-Android/issues/5).
+>
+> **The current public Android APK, Windows ZIP, and live iPhone PWA are still BeardAI 5.0.** No New Era binary or public iPhone deployment has been published.
+
+---
+
+
 **Future New Era upgrade:** Deliberately held in private development; no new APK, ZIP, or iPhone site deployment until the substantial feature set is implemented and independently tested. **5.0 remains the current public version.** Follow the [source repository](https://github.com/AntonioRose-design/BeardAI-Android) for development status rather than assuming roadmap items have shipped.
 
 **New Era release-readiness tracker:** [Read the current GitLab protection, testing, and 11,000-feature acceptance status](https://github.com/AntonioRose-design/BeardAI-Android/issues/5). GitLab `main` has protected-branch rules and its CI setup merge request passed; its saved required-merge-check settings and GitLab→GitHub synchronization still require confirmation. **No 11,000-feature build has been certified or released.**
