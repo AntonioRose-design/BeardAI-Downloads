@@ -1,5 +1,7 @@
 # 👑 BeardAI — Official Android & Windows Downloads
 
+> **Next update — 2.3.1 Update Center (development):** A global visible 🔔 Updates button, manual GitHub release check, and saved automatic-check-on-launch toggle have been added to the Android/Windows source branch. These features are **not yet included in the public 2.3.0 downloads**; a new compiled release is required. The setting automatically checks for updates, **not** silently installs them.
+
 ## 🪨 Latest public release: BeardAI 2.3.0 — Rolling Stone Intel Expansion
 
 **Released October 23, 2026 • Android APK and Windows portable desktop ZIP • Public preview**
