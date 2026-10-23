@@ -1,21 +1,19 @@
-# BeardAI — Official Announcements
+# BeardAI — Announcements
 
-## October 23, 2026 — 4.0.1 Royal Command Launcher Fix candidate
+## October 23, 2026 — 4.0.1 Royal Command Launcher Fix published
 
-A Windows startup collision was confirmed: the public 4.0.0 Windows launcher can reuse an older BeardAI 3.0 localhost instance. **4.0.1 source** changes its localhost identity to port `18754` and marker `BEARDAI_LOCAL_V400`. Android versioning and the update center are also aligned to 4.0.1.
+**Android APK, Windows ZIP and checksums are now public.** [Download v4.0.1](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.1-royal-command-launcher-fix). [All GitHub publishing jobs passed](https://github.com/AntonioRose-design/BeardAI-Android/actions/runs/40015513178).
 
-**Release status:** The corrected source and workflow are prepared; **4.0.1 is not yet published** as a public GitHub release. [Read the 4.0.1 memo](RELEASE_NOTES_v4.0.1-royal-command-launcher-fix.md) or [run the publisher](https://github.com/AntonioRose-design/BeardAI-Android/actions/workflows/publish-public-hotfix.yml) on `main`, then verify the Android, Windows and publish jobs.
+Windows 4.0.1 isolates localhost port `18754` and health marker `BEARDAI_LOCAL_V400` from older 3.0 installations. Back up personal Intel data before switching. See [release memo](RELEASE_NOTES_v4.0.1-royal-command-launcher-fix.md).
 
-## October 23, 2026 — 4.0.0 Royal Command Preview public
+## Development update — Royal Workbench (not shipped in 4.0.1)
 
-[BeardAI 4.0.0](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.0-royal-command-preview) was published with Android, Windows and checksums after CI success. It introduced Royal Command responsive styling, feedback issue submission, and Supabase live-chat connection attempts with three-second fallback polling. Royal Tasks, Fusion Lab and Intel remain companion tools. The live chat service and all consumer upgrade paths require more testing.
+The development branch now includes a Royal Workbench interface for personal task/upgrade cards, configurable priorities, stages, filtering, and JSON export. It was committed after the verified public 4.0.1 build; a subsequent release will be required to deliver it. A [1,000-item backlog](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_4_0_1000_FEATURES.md) describes proposed functions, not 1,000 built features. Feedback submissions are subject to human review, not automatic code deployment.
 
-**Note:** The [1,000-item roadmap](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_4_0_1000_FEATURES.md) is a development backlog, *not 1,000 completed features*. No iPhone IPA/TestFlight or Ant Legion gameplay automation is included.
+## October 23, 2026 — 4.0.0 Royal Command Preview
 
-## Earlier versions
+[Version 4.0.0](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.0-royal-command-preview) introduced updated responsive styling, Feedback Center, and chat Realtime subscription attempt with three-second fallback. Real-world chat speed and full upgrade behavior remain unverified.
 
-- [3.0.1 Royal Evolution Hotfix](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v3.0.1-royal-evolution-hotfix)
-- [3.0.0 Royal Evolution Developer Preview](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v3.0.0-royal-evolution-dev)
-- [2.3.0 Rolling Stone Preview](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v2.3.0-rolling-stone-preview)
+**Platforms:** Android and Windows public releases only; no iPhone IPA or TestFlight build. BeardAI does not autonomously operate Ant Legion accounts.
 
 [Official homepage](README.md) · [All releases](https://github.com/AntonioRose-design/BeardAI-Downloads/releases)
