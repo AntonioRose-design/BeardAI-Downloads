@@ -1,5 +1,7 @@
 # 👑 BeardAI — Official Downloads
 
+**Updater development:** A new Windows developer-branch utility now checks official releases, requests consent, verifies the downloaded ZIP using GitHub's SHA-256 digest, and stages it. It does **not** automatically replace running application files; tested backup/rollback is still required before promoting it as an automatic installer. Android currently links to official releases and still requires manual APK installation. The public 2.2.1 downloads do not contain this newer updater utility.
+
 ## ✅ Latest public release: BeardAI 2.2.1 Owner Console Preview
 
 **[📱 Download Android 2.2.1 APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.2.1-owner-preview/BeardAI-Android-v2.2.1-owner-preview.apk)** · **[🖥️ Download Windows 2.2.1 ZIP](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.2.1-owner-preview/BeardAI-Windows-v2.2.1-owner-preview.zip)**
