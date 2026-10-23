@@ -1,5 +1,13 @@
 # 👑 BeardAI — Official Downloads & Cross-Platform Status
 
+## 👑 Royal Evolution 3.0 — candidate builds prepared
+
+**Newest development builds:** Android and Windows Royal Evolution packages have passed GitHub CI and have been packaged for the owner to attach to the next public prerelease. **These files are not yet on a public GitHub Release.** The installed application version/build labels remain 2.3.x, and the 100-feature roadmap is not fully implemented.
+
+[Preview release notes, build evidence and SHA-256 digests](RELEASE_NOTES_ROYAL_EVOLUTION_3_0_DEV.md) · [100-feature roadmap](https://github.com/AntonioRose-design/BeardAI-Android/blob/beardai-2.2-community-media-updates/ROADMAP_BEARD_AI_3_0_100_FEATURES.md)
+
+**iPhone:** SwiftUI/XcodeGen development source exists, but **no valid IPA, TestFlight invitation or hosted PWA** has been released. A functioning Apple-signed iOS build requires Xcode, an Apple Developer team and App Store Connect.
+
 ## Download now — verified public files
 
 **[📱 Android 2.3.0 Rolling Stone APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v2.3.0-rolling-stone-preview/BeardAI-Android-v2.3.0-Rolling-Stone-Preview.apk)**
