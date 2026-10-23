@@ -1,6 +1,6 @@
 # BeardAI 5.0 — Royal Workbench & Feature Compass Preview
 
-**Status:** Release candidate being built; do not claim published Android/Windows packages or an updated iPhone website until GitHub Actions completes and public assets are checked.
+**Status:** Public 5.0.0 prerelease published. [Android APK, Windows ZIP and SHA256SUMS.txt](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v5.0.0-royal-workbench-preview) are available and the [cross-platform publisher](https://github.com/AntonioRose-design/BeardAI-Android/actions/workflows/publish-5-release.yml) has passed. The [iPhone 5.0 Home Screen web app](https://antoniorose-design.github.io/BeardAI-Downloads/) is deployed on GitHub Pages.
 
 ## What this version actually includes
 
