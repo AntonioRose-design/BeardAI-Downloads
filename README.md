@@ -2,6 +2,8 @@
 
 > **Next update — 2.3.1 Update Center (development):** A global visible 🔔 Updates button, manual GitHub release check, and saved automatic-check-on-launch toggle have been added to the Android/Windows source branch. These features are **not yet included in the public 2.3.0 downloads**; a new compiled release is required. The setting automatically checks for updates, **not** silently installs them.
 
+> **Windows 2.3.1 launcher hotfix (development; not yet in the public release):** A Windows startup conflict with earlier BeardAI builds was fixed by isolating the new local server on port 18743. The new ZIP is a single extractable desktop package instead of a ZIP nested inside a GitHub Actions artifact. Windows automatically checks for newer releases on launch and offers an approved, SHA-256-verified update download and side-by-side installation using `CHECK_BEARDAI_UPDATES.bat`; the old folder remains as rollback. Unattended installation and automatic local-data migration are not promised. This patch requires publishing a newer Windows release binary before existing users can download it from the public Releases page.
+
 ## 🪨 Latest public release: BeardAI 2.3.0 — Rolling Stone Intel Expansion
 
 **Released October 23, 2026 • Android APK and Windows portable desktop ZIP • Public preview**
