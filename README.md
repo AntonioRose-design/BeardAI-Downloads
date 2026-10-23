@@ -2,11 +2,11 @@
 
 **Updater development:** A new Windows developer-branch utility now checks official releases, requests consent, verifies the downloaded ZIP using GitHub's SHA-256 digest, and stages it. It does **not** automatically replace running application files; tested backup/rollback is still required before promoting it as an automatic installer. Android currently links to official releases and still requires manual APK installation. The public 2.2.1 downloads do not contain this newer updater utility.
 
-## 🪨 Rolling Stone Intel Expansion — Development Preview (October 23, 2026)
+## 🪨 Rolling Stone 2.3 — Built and CI-Tested (October 23, 2026)
 
 **The upcoming build adds 31 Intel guide playbooks**, bringing the field guide from 54 to **85 entries**, and corrects the Mechanical Scorpion Fusion Lab to support **player-specific gear levels 1 through 10** for each of six pieces. Existing level 7 progress remains tied to the player's saved data; new users are not presumed level 7. Ingredient costs are explicitly unknown until entered from in-game evidence. A new automated regression test covers level choices and guide expansion.
 
-**Release status:** These improvements are committed on [the 2.2 development branch](https://github.com/AntonioRose-design/BeardAI-Android/tree/beardai-2.2-community-media-updates). **They are not yet included in the public 2.2.1 Android or Windows downloads.** New binaries must be built, tested, and uploaded before labeling this publicly released. Automatic install remains unfinished.
+**Release status:** Android and Windows 2.3 preview binaries **passed GitHub Actions**, with both new packages prepared for upload. The public GitHub Release assets have **not** yet been updated; published v2.2.1 files still do not contain Rolling Stone. [2.3 notes, checksums and build verification](https://github.com/AntonioRose-design/BeardAI-Downloads/blob/main/RELEASE_NOTES_v2.3.0-rolling-stone-preview.md). Automatic installation remains unfinished.
 
 ## ✅ Latest public release: BeardAI 2.2.1 Owner Console Preview
 
