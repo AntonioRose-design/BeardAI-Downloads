@@ -1,5 +1,11 @@
 # BeardAI Official Announcements
 
+## 4.0.1 launcher repair — being tested
+
+A Windows 4.0 localhost collision with the older 3.0 server was identified. 4.0.1 will isolate the port and health token. [Repair memo](RELEASE_NOTES_v4.0.1-royal-command-launcher-fix.md). Public 4.0.1 release is pending tested builds and GitHub publishing. The 1,000-feature list is a development backlog; these features have not all been implemented.
+
+
+
 ## October 23, 2026 — 4.0 Royal Command public prerelease published
 
 Android and Windows 4.0 packages and checksums are live on the [4.0 public release](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v4.0.0-royal-command-preview). [Release notes](RELEASE_NOTES_v4.0.0-royal-command-preview.md) describe the responsive theme, Feedback Center, Realtime chat attempt with fallback, and known limitations. Both platform builds passed GitHub Actions. 4.0 is a prerelease and does not include 1,000 finished features.
