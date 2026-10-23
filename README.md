@@ -1,3 +1,5 @@
+> **Windows 3.0 launcher hotfix:** The current 3.0 release's Windows ZIP still contains stale 2.3 branding and may reuse an older localhost process. A corrected Windows 3.0 package with a new localhost port and health identity has been built in the development branch and must replace the existing ZIP after its startup test. Until that asset is replaced, the current published Windows 3.0 file is NOT the corrected build.
+
 ## ✅ Royal Evolution 3.0 prerelease — partially published
 
 The [3.0 development release](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v3.0.0-royal-evolution-dev) is public. The **[Windows Royal Evolution ZIP](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/download/v3.0.0-royal-evolution-dev/BeardAI-Royal-Evolution-Windows-Development.zip)** is confirmed attached and its SHA-256 matches the documented checksum. **The Android Royal Evolution APK is not yet attached**; upload `BeardAI-Royal-Evolution-Android-Development.apk` to that same release. No iPhone IPA or TestFlight build is available. This is a developer prerelease, not completion of the 100-feature roadmap.
