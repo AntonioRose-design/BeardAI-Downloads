@@ -1,18 +1,24 @@
 # 👑 BeardAI — Official Public Downloads
 
-> ### ✨ BEARDAI NEW ERA IS COMING — NOT YET RELEASED
-> The next major Android / Windows / iPhone Safari upgrade is aiming for **11,000 new fully functioning, independently verified features**, with **many more enhancements planned**. This is a development target, **not an announcement of 11,000 finished features**. No release date has been confirmed.
+> ### ✨ BeardAI New Era — a future Ant Legion companion upgrade
 >
-> Under active private development: **Sovereign Command, Sovereign Search, Evidence & Strategy Lab, Decision Studio, Scenario Lab, Sovereign Vault, Device Readiness** and improvements to the shared app experience. **[Read the public New Era coming-soon announcement](NEW_ERA_COMING_SOON.md)** · [Development review](https://github.com/AntonioRose-design/BeardAI-Android/pull/3) · [Release readiness](https://github.com/AntonioRose-design/BeardAI-Android/issues/5).
+> **Current public release: BeardAI 5.0.** The Android APK, Windows portable ZIP, and iPhone Safari web app linked below are all still **5.0**. **New Era is not publicly available, no new APK has been released, and the live iPhone site has not been replaced.**
 >
-> **The current public Android APK, Windows ZIP, and live iPhone PWA are still BeardAI 5.0.** No New Era binary or public iPhone deployment has been published.
+> **What's being developed privately?** Ant Legion **Video Academy** with in-app YouTube guide/Shorts viewing, saved lessons and a private Android video player; **Knowledge Arena** with tap-to-answer Ant Legion learning rounds; and major improvements to the Command Dock, homepage visuals, alliance planning, gear tools, offline evidence and backup.
+>
+> **Current development status:** These are source-stage prototypes, not independently certified releases. GitHub Actions is currently blocked before platform builds begin, and Android video streaming has **not** passed real-device testing. Videos are subject to YouTube/creator restrictions, even with a built-in player. The future target of **11,000 independently verified features** is a goal, **not 11,000 features completed**. No launch date is confirmed.
+>
+> [**New Era public preview and roadmap**](NEW_ERA_COMING_SOON.md) · [**Latest available 5.0 downloads**](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v5.0.0-royal-workbench-preview)
+>
+> **For testers:** New Era source is private. Its GitHub development links will display **404** unless you are signed into an account with access. Please do not install older private APKs expecting the newly staged Video Academy.
+
 
 ---
 
 
 **Future New Era upgrade:** Deliberately held in private development; no new APK, ZIP, or iPhone site deployment until the substantial feature set is implemented and independently tested. **5.0 remains the current public version.** Follow the [source repository](https://github.com/AntonioRose-design/BeardAI-Android) for development status rather than assuming roadmap items have shipped.
 
-**New Era release-readiness tracker:** [Read the current GitLab protection, testing, and 11,000-feature acceptance status](https://github.com/AntonioRose-design/BeardAI-Android/issues/5). GitLab `main` has protected-branch rules and its CI setup merge request passed; its saved required-merge-check settings and GitLab→GitHub synchronization still require confirmation. **No 11,000-feature build has been certified or released.**
+**New Era release-readiness tracker:** The private engineering workspace maintains strict release/branch safeguards and requires platform QA, manual Android video-playback proof, feature evidence and owner approval. These checks are **not complete**, and the current public Android, Windows and iPhone downloads remain the existing 5.0 edition. Private review links can show GitHub 404 to visitors without access.
 
 ## Latest release — BeardAI 5.0 Royal Workbench & Feature Compass
 
