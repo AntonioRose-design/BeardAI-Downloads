@@ -2,6 +2,8 @@
 
 > ### ✨ BeardAI New Era — a future Ant Legion companion upgrade
 >
+> **October 24 private lab update:** The next-build evidence ledger records **35 source prototypes, 0 release-certified**. A new owner-configurable, *off-by-default* PostHog diagnostic module and a sign-in button initialization guard have been added to private source. Real user-device authentication and app-wide interaction acceptance remain pending. **Public Android, Windows and iPhone downloads remain BeardAI 5.0.**
+>
 > **Current public release: BeardAI 5.0.** The Android APK, Windows portable ZIP, and iPhone Safari web app linked below are all still **5.0**. **New Era is not publicly available, no new APK has been released, and the live iPhone site has not been replaced.**
 >
 > **What's being developed privately?** Ant Legion **Video Academy** (in-app guides/Shorts, Resume/Recently Watched), **Knowledge Arena** (tap-to-answer lessons), and **Alliance Field Operations** (four preparation checklists, six copy-and-paste alliance announcements, four playable tactical drills, validated local backups), plus Command Dock, better homepage visuals and equipment tools. These are source prototypes, not present in the public 5.0 apps.
