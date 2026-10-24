@@ -2,6 +2,12 @@
 
 **New Era release-readiness tracker:** [Read the current GitLab protection, testing, and 11,000-feature acceptance status](https://github.com/AntonioRose-design/BeardAI-Android/issues/5). GitLab `main` has protected-branch rules and its CI setup merge request passed; its saved required-merge-check settings and GitLab→GitHub synchronization still require confirmation. **No 11,000-feature build has been certified or released.**
 
+## October 24, 2026 — Pocket Field Guide source upgrade (private only)
+
+Verified Knowledge in the private New Era branch now supports a **Pocket Field Guide**: save source-attributed Ant Legion facts locally, filter the saved shelf, jump to the next bookmarked fact and copy a source/version-aware note. The source catalog presently contains 30 attributed records, and older facts remain clearly marked historical. Direct core validation passed 38 isolated JavaScript assertions; full browser/Android/Windows/iPhone builds were **not run successfully**. The Feature Atlas now tracks **28 source-backed prototypes, zero release-certified features**, after also recording the already-implemented Shield Watch bundle. [Read the development guide](https://github.com/AntonioRose-design/BeardAI-Android/blob/new-era-11k-feature-lab/docs/NEW_ERA_POCKET_FIELD_GUIDE.md) (requires private access).
+
+**No New Era public APK, Windows ZIP, or iPhone site deployment.** Public BeardAI 5.0 stays available unchanged. Build infrastructure blocker: [issue #6](https://github.com/AntonioRose-design/BeardAI-Android/issues/6).
+
 ## October 24, 2026 — New private player tools, public releases unchanged
 
 The New Era development branch now includes **Alliance Field Operations**: four tap-to-check readiness playbooks, six copyable alliance announcements with Favorites, four playable tactical decisions, and locally backed-up progress. Recent Video Academy work also adds **Resume**, **Recently Watched**, and Clear Watch History. These are designed for players to actually use, not charts or placeholder lists. The private evidence ledger now records **26 prototypes and zero release-certified features**.
