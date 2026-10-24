@@ -6,6 +6,8 @@
 >
 > **What's being developed privately?** Ant Legion **Video Academy** (in-app guides/Shorts, Resume/Recently Watched), **Knowledge Arena** (tap-to-answer lessons), and **Alliance Field Operations** (four preparation checklists, six copy-and-paste alliance announcements, four playable tactical drills, validated local backups), plus Command Dock, better homepage visuals and equipment tools. These are source prototypes, not present in the public 5.0 apps.
 >
+> **October 24 newest private development:** Added a **Pocket Field Guide** to save, browse and copy version-labeled Ant Legion facts from the sourced Verified Knowledge library. **28 development prototypes and zero release-certified New Era features**, including a reconciliation of Shield Watch into the evidence registry. Source bookmarks passed 38 isolated V8 assertions; Android/Windows/iPhone binaries and real device tests remain unverified. **Existing public 5.0 installers and iPhone website have not changed.**
+>
 > **October 24 engineering update:** The private source evidence register contains **26 prototypes, 0 release-certified features**. Field Operations passed **84 isolated core behavior checks**, but no new device builds or video playback were certified. The 11,000-feature objective remains a future target, not a shipped product.
 >
 > **Current development status:** These are source-stage prototypes, not independently certified releases. GitHub Actions is currently blocked before platform builds begin, and Android video streaming has **not** passed real-device testing. Videos are subject to YouTube/creator restrictions, even with a built-in player. The future target of **11,000 independently verified features** is a goal, **not 11,000 features completed**. No launch date is confirmed.
