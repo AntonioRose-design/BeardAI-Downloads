@@ -1,3 +1,5 @@
+> **Ant META private product identity (October 24, 2026):** New Era is being redesigned as **Ant META**, with an original ant-world interface, Colony Sage AI UI, Knowledge Arena, solo arcade and illustrated comics. **Private source only:** 40 evidence-backed prototype modules, **0 release-certified**. The optional AI backend is deployed but still needs an owner-supplied provider API key and real sign-in testing; PostHog app telemetry remains disabled until separately configured and opted into. The latest owner Windows build hit a navigation-test mismatch that was corrected in private source; no fresh installed-app verification yet. **Public Android, Windows, and iPhone downloads remain BeardAI 5.0.** [Private draft PR](https://github.com/AntonioRose-design/BeardAI-Android/pull/3) (requires private-repo access).
+
 # 👑 BeardAI — Official Public Downloads
 
 > ### ✨ BeardAI New Era — a future Ant Legion companion upgrade
