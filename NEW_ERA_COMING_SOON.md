@@ -9,6 +9,14 @@ BeardAI's next direction brings a more sophisticated command-style interface, cl
 
 The private engineering work currently includes development prototypes of:
 
+The latest private engineering work also introduces two *player-usable* concepts which have not been deployed or physically certified:
+
+- **Ant Legion Video Academy:** watch curated Ant Legion strategy/gameplay/Shorts directly inside the companion interface, keep a local saved-video shelf and mark lessons learned. The Android source includes an isolated YouTube viewer and an in-app YouTube mode; video availability remains subject to YouTube/creator restrictions.
+- **Knowledge Arena:** tap through source-linked six-question ant-game knowledge rounds with explanations and replay. No charts or required text-entry forms.
+- **Home Recovery + Command Dock:** responsive navigation, unzoomed art choices and favorite shortcuts for jumping to tools.
+
+**Rollout blocker (October 2026):** private Android, Windows and iPhone build workflows were failing before GitHub assigned a runner. A full build/installation and real-device video check remain mandatory. The source repository is private, so unapproved accounts will see GitHub **404** on development links. No new APK, Windows package or iPhone website has been published.
+
 - **Sovereign Command:** an integrated game-observation and personal priority dashboard.
 - **Sovereign Search:** quickly jump to available workspace tools.
 - **Evidence Lab:** review user-entered game readings, screenshots and history; do not confuse preview with automatic image recognition.
