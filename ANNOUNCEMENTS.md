@@ -2,6 +2,12 @@
 
 **New Era release-readiness tracker:** [Read the current GitLab protection, testing, and 11,000-feature acceptance status](https://github.com/AntonioRose-design/BeardAI-Android/issues/5). GitLab `main` has protected-branch rules and its CI setup merge request passed; its saved required-merge-check settings and GitLab→GitHub synchronization still require confirmation. **No 11,000-feature build has been certified or released.**
 
+## October 24, 2026 — New private player tools, public releases unchanged
+
+The New Era development branch now includes **Alliance Field Operations**: four tap-to-check readiness playbooks, six copyable alliance announcements with Favorites, four playable tactical decisions, and locally backed-up progress. Recent Video Academy work also adds **Resume**, **Recently Watched**, and Clear Watch History. These are designed for players to actually use, not charts or placeholder lists. The private evidence ledger now records **26 prototypes and zero release-certified features**.
+
+**Testing disclosure:** Field Operations passed 84 direct core assertions in an isolated JavaScript runtime. The Android APK, Windows ZIP, Safari bundle and real Android YouTube playback still require successful build/device verification. GitHub Actions hosted runners currently fail to start jobs. **Nothing from this update has been added to the public 5.0 installers or the live iPhone site.** [New Era roadmap](NEW_ERA_COMING_SOON.md) · [current 5.0 downloads](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v5.0.0-royal-workbench-preview).
+
 ## October 23, 2026 — Future New Era release placed on hold
 
 **No new public BeardAI upgrade has been released.** The next ambitious release is being developed privately with a strict owner-requested freeze until the proposed 11,000 useful features are actually implemented, tested and approved. Early source prototypes include opt-in voice dictation, private chat attachments, verified role colors, time-aware themes and a friendly local Windows hostname. The production chat database, iPhone web app and 5.0 downloads have **not** been upgraded to those prototypes. [Development status and release policy](https://github.com/AntonioRose-design/BeardAI-Android) · [New Era source branch](https://github.com/AntonioRose-design/BeardAI-Android/tree/new-era-11k-feature-lab).
