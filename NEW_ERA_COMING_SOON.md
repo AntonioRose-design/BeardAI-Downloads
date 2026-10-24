@@ -12,6 +12,7 @@ The private engineering work currently includes development prototypes of:
 The latest private engineering work also introduces two *player-usable* concepts which have not been deployed or physically certified:
 
 - **Ant Legion Video Academy:** watch curated Ant Legion strategy/gameplay/Shorts directly inside the companion interface, keep a local saved-video shelf and mark lessons learned. The Android source includes an isolated YouTube viewer and an in-app YouTube mode; video availability remains subject to YouTube/creator restrictions.
+- **Pocket Field Guide:** Save and revisit version-labeled Ant Legion facts from the sourced Verified Knowledge library; jump between favorites and copy a short claim with source. Offline-first, no forms or automatic game actions. Staged privately, not in public 5.0.
 - **Knowledge Arena:** tap through source-linked six-question ant-game knowledge rounds with explanations and replay. No charts or required text-entry forms.
 - **Home Recovery + Command Dock:** responsive navigation, unzoomed art choices and favorite shortcuts for jumping to tools.
 - **Next Fusion Coach (private source):** inspect which next gear fusion is covered by manually recorded materials, confirm a fusion already performed in the game, update local inventory, and undo a mistaken local recording. No game action, automatic upgrade, or verified material recipe. Build and physical device acceptance remain pending.
