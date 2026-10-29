@@ -14,7 +14,7 @@
 
 ## Ant META R23 — Living Comics Nook
 
-**October 29, 2026 status: three R23 beta build candidates have passed LOCAL packaging and source checks; R23 is NOT public yet.** The owner has now built a **signed Android APK**, a **clean public-facing Windows QA ZIP**, and an **iPhone Safari PWA ZIP** at the same private R23 source revision. Windows local server, MP4 byte-range, and host-restriction smoke tests passed. These are *candidate* builds: physical-device approval, public media/security/privacy review, and HTTPS iPhone installation still need to be completed.
+**October 29, 2026 status: all three R23 beta candidates passed local packaging; a first R23 iPhone Safari PWA was deployed to Vercel production at https://ant-meta.vercel.app. Public visitor access and real Safari functionality remain unverified. Android and Windows R23 installers have NOT been uploaded publicly.** The owner has now built a **signed Android APK**, a **clean public-facing Windows QA ZIP**, and an **iPhone Safari PWA ZIP** at the same private R23 source revision. Windows local server, MP4 byte-range, and host-restriction smoke tests passed. These are *candidate* builds: physical-device approval, public media/security/privacy review, and HTTPS iPhone installation still need to be completed.
 
 **Do not download 5.0 expecting the new R23 experience.** We will link the actual R23 prerelease from [Releases](https://github.com/AntonioRose-design/BeardAI-Downloads/releases) only after the signed files are uploaded and verified.
 
@@ -29,7 +29,7 @@
 | --- | --- | --- |
 | **Android** | [BeardAI 5.0 APK](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v5.0.0-royal-workbench-preview) | Signed R23 APK produced locally; install/upgrade and distribution review pending |
 | **Windows** | [BeardAI 5.0 ZIP](https://github.com/AntonioRose-design/BeardAI-Downloads/releases/tag/v5.0.0-royal-workbench-preview) | Sanitized R23 public-QA ZIP passed local HTTP/video smoke checks; public upload pending |
-| **iPhone / iPad** | [5.0 Safari Home Screen app](https://antoniorose-design.github.io/BeardAI-Downloads/) | R23 website package built; HTTPS deployment and Safari testing pending |
+| **iPhone / iPad** | [5.0 Safari Home Screen app](https://antoniorose-design.github.io/BeardAI-Downloads/) | [R23 Vercel production deployment](https://ant-meta.vercel.app) created; public access / device testing pending |
 
 > **Distribution:** Android is a directly installed APK, Windows is an extract-and-run ZIP, and iPhone is a Safari website installed through **Share → Add to Home Screen**, not a native .ipa or App Store release. The private development repository and signing keys are not public.
 
